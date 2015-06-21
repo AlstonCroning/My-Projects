@@ -1,4 +1,4 @@
-Simple Web Page Design
+#Simple Web Page Design
 
 About:   
 A demonstration of my XHTML and CSS skills in a Web page
