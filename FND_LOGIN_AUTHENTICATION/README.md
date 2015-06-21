@@ -4,5 +4,5 @@ About:
 A Frontend Login Authentication system coded using JavaScript	
 
 Features:	
-Form validation
+Form validation   
 Password varification
