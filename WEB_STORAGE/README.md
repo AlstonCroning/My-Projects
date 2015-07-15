@@ -1,5 +1,5 @@
 # About 
-Web Storage API is created using HTML5, CSS3 and JavaScript. Most contents in the repository was helpfull for demonstration of the project. 
+This Web Storage project is created using HTML5, CSS3 and JavaScript.  
 
 
 #What it does?	
