@@ -4,7 +4,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Sample Project</title>
-    <link rel="stylesheet" type="text/css" href="public/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
 <body>
@@ -12,7 +12,7 @@
     <p id="message"></p>
     <button id="button">Click</button>
 
-    <script src="public/js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
