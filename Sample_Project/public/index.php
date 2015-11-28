@@ -13,48 +13,56 @@
 <!--    <button id="button">Click</button>-->
 
     <?php
-
     use Phalcon\Loader;
+    use Phalcon\Tag;
+    use Phalcon\Mvc\Url;
     use Phalcon\Mvc\View;
     use Phalcon\Mvc\Application;
     use Phalcon\DI\FactoryDefault;
-    use Phalcon\Mvc\Url as UrlProvider;
     use Phalcon\Db\Adapter\Pdo\Mysql as DbAdapter;
-
     try {
-
         // Register an autoloader
         $loader = new Loader();
-        $loader->registerDirs(array(
-            '../app/controllers/',
-            '../app/models/'
-        ))->register();
-
+        $loader->registerDirs(
+            array(
+                '../app/controllers/',
+                '../app/models/'
+            )
+        )->register();
         // Create a DI
         $di = new FactoryDefault();
-
-        // Setup the view component
-        $di->set('view', function () {
+        // Set the database service
+        $di['db'] = function() {
+            return new DbAdapter(array(
+                "host"     => "localhost",
+                "username" => "root",
+                "password" => "secret",
+                "dbname"   => "tutorial"
+            ));
+        };
+        // Setting up the view component
+        $di['view'] = function() {
             $view = new View();
             $view->setViewsDir('../app/views/');
             return $view;
-        });
-
+        };
         // Setup a base URI so that all generated URIs include the "tutorial" folder
-        $di->set('url', function () {
-            $url = new UrlProvider();
+        $di['url'] = function() {
+            $url = new Url();
             $url->setBaseUri('/Sample_Project/');
             return $url;
-        });
-
+        };
+        // Setup the tag helpers
+        $di['tag'] = function() {
+            return new Tag();
+        };
         // Handle the request
         $application = new Application($di);
-
         echo $application->handle()->getContent();
-
-    } catch (\Exception $e) {
-        echo "PhalconException: ", $e->getMessage();
+    } catch (Exception $e) {
+        echo "Exception: ", $e->getMessage();
     }
+
     ?>
 <!--    <script src="js/scripts.js"></script>-->
 <!--</body>-->
