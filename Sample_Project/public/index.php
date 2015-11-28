@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html>
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!---->
+<!--<head lang="en">-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Sample Project</title>-->
+<!--    <link rel="stylesheet" type="text/css" href="css/styles.css" />-->
+<!--</head>-->
 
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Sample Project</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-</head>
+<!--<body>-->
 
-<body>
-
-    <p id="message"></p>
-    <button id="button">Click</button>
+<!--    <p id="message"></p>-->
+<!--    <button id="button">Click</button>-->
 
     <?php
 
@@ -56,7 +56,7 @@
         echo "PhalconException: ", $e->getMessage();
     }
     ?>
-    <script src="js/scripts.js"></script>
-</body>
-
-</html>
+<!--    <script src="js/scripts.js"></script>-->
+<!--</body>-->
+<!---->
+<!--</html>-->

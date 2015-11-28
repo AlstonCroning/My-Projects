@@ -1,3 +1,4 @@
+/*
 //document objects
 var msg = document.getElementById("message");
 var button = document.getElementById("button");
@@ -13,3 +14,5 @@ button.addEventListener("click",ChangeColor,false);
 function ChangeColor() {
     msg.style.color = "blue";
 }
+
+*/
