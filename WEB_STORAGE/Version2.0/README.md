@@ -1,4 +1,7 @@
- #Upcomming Changes
+#Updates		
+Styles being added			
 
-Adding Styles to the Page    
+
+#Upcomming Changes				
+
 Re work on the Code for improvements
