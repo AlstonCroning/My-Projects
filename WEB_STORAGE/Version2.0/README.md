@@ -1,7 +1,10 @@
 #Updates		
-Styles being added			
+New design to the webpage		
+"ClearData" button added and its functionality updated		
+Improved "Save" button functionality		
 
 
-#Upcomming Changes				
+#Upcomming Changes		
+Validate the data		
+Display the output clearly		
 
-Re work on the Code for improvements
