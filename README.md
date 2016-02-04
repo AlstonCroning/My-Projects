@@ -1,4 +1,4 @@
 # My-Projects
 
 About:  
-This repository will contains my projects
+This repository will contain my projects
