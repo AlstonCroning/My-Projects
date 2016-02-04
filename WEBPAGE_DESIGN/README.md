@@ -1,7 +1,7 @@
-#Simple Web Page Design
+#Web Page Design
 
 About:   
-A demonstration of my XHTML and CSS skills in a Web page
+A demonstration of my HTML and CSS skills in a Web page
 
 Features:   
 Navigation Bar   
