@@ -10,11 +10,15 @@ header {
 }
 
 #wrapper {
-    text-align: center;
+    margin-left: 40%;
+}
+
+#wrapper #displayComment {
     font-family: serif;
-    font-size: 50px;
+    font-size: 10px;
     color: darkblue;
 }
+
 /*
 footer {
     text-align: center;
