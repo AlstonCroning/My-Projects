@@ -24,35 +24,42 @@ if(mysqli_connect_error()){
 <div id="wrapper">
     <form method="post" action="<?php $_SERVER['PHP_SELF'];?>">
 
+        User's Name:<br />
+        <input type="text" name="username" /><br />
         Comment Here<br />
         <textarea id="inputComment" name="inputComment1" cols="30" rows="2" autofocus ></textarea>
         <input type="submit" id="submitButton" /><br />
 
-        <textarea id="displayComment" name="displayComment1" cols="50" rows="10" disabled ></textarea><br />
+        <?php
+        $comment = $_POST['inputComment1'];
+        $username = $_POST['username'];
+        ?>
+
+        <textarea id="displayComment" name="displayComment1" cols="50" rows="10" disabled >
+         <?php
+         if ($comment != "" && $username != "") {
+             $query = "INSERT INTO `users` (`name`,`email`) VALUES ('$username','$comment')";
+             mysqli_query($link, $query);
+
+
+             $query = "SELECT * FROM `users` WHERE `name`='$username'";
+
+             if ($result = mysqli_query($link, $query)) {
+                 while ($rows = mysqli_fetch_array($result)) {
+                     print_r($rows);
+                 }
+             }
+
+             //print $comment;
+         }
+         ?>
+        </textarea><br />
 
     </form>
 </div>
 
 
 <footer>Copyright &copy All Rights reserved for Alston Croning</footer>
-
-
-
-<?php
-$comment = $_POST['inputComment1'];
-if($comment != ""){
-    $query = "INSERT INTO `users` (`name`,`email`) VALUES ('hello','$comment')";
-    mysqli_query($link, $query);
-    /*
-            if($result = mysqli_query($link,$query)) {
-                while($rows = mysqli_fetch_array($result)) {
-                    //print_r($rows);
-                }
-            }*/
-
-//print $comment;
-}
-?>
 
 
 <script src="JavaScript.js"></script>

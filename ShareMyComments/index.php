@@ -15,6 +15,8 @@
 <div id="wrapper">
 <form method="post" action="server.php">
 
+    User's Name:<br />
+    <input type="text" name="username" /><br />
     Comment Here<br />
     <textarea id="inputComment" name="inputComment1" cols="30" rows="2" autofocus ></textarea>
     <input type="submit" id="submitButton" /><br />
