@@ -1,0 +1,28 @@
+body{
+    background-color: aliceblue;
+}
+
+header {
+    text-align: center;
+    font-family: serif;
+    font-size: 100px;
+    color: brown;
+}
+
+#wrapper {
+    margin-left: 40%;
+}
+
+#wrapper #displayComment {
+    font-family: serif;
+    font-size: 10px;
+    color: darkblue;
+}
+
+
+footer {
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    color: cornflowerblue;
+}
