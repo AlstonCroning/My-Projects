@@ -38,7 +38,7 @@ if(mysqli_connect_error()){
         <textarea id="displayComment" name="displayComment1" cols="50" rows="10" disabled >
          <?php
          if ($comment != "" && $username != "") {
-             $query = "INSERT INTO `users` (`name`,`email`) VALUES ('$username','$comment')";
+             $query = "INSERT INTO `users` (`name`,`comments`) VALUES ('$username','$comment')";
              mysqli_query($link, $query);
 
 
