@@ -81,6 +81,7 @@ p {
 .contact-details .table-data1 {
     font-weight: 700;
     text-align: right;
+    padding-right: 10px;
 }
 
 .contact-details .table-data2 {
@@ -560,3 +561,19 @@ header {
     border: 5px solid #000000;
     width: 100%;
 }
+/* =========== Services Section CSS =========== */
+
+
+
+/* =========== Contact Us CSS =========== */
+.contact-us-footer-info {
+    margin-bottom: 30px;
+}
+
+.contact-us-footer-info h3{
+    text-align: center;
+    font-size: 23px;
+    line-height: 35px;
+    font-weight: 600;
+}
+/* =========== Contact Us CSS =========== */
