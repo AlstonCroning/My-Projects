@@ -1,0 +1,562 @@
+/* =========== Basic CSS =========== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Prompt', sans-serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 14px;
+}
+/* =========== End Basic CSS =========== */
+
+
+
+
+/* =========== Generics CSS =========== */
+/*section title*/
+.section-title {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.section-title h2{
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129cf3;
+    margin-left: -30px;
+}
+
+.section-title p {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+/*contact details*/
+.contact-details {
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.contact-details h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact-details table {
+    width: 100%;
+}
+
+.contact-details table tr td {
+    padding: 3px;
+}
+
+.contact-details .table-data1 {
+    font-weight: 700;
+    text-align: right;
+}
+
+.contact-details .table-data2 {
+    text-align: left;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.contact-details p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.contact-details p span {
+    font-weight: 700;
+}
+
+/* location infomation & location map */
+.location-info-title {
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.location-info-title h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.location-info-title p {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.location-map {
+    border: 1px solid #000000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.location-map iframe {
+    width: 100%;
+}
+
+
+.favicon-information-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.favicon-information-list-item {
+    position: relative;
+}
+
+.favicon-information-list-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.favicon-information-list-icon i {
+    font-size: 17px;
+    padding-top: 3px;
+    color: #129cf3;
+}
+
+.favicon-information-list-item p {
+    padding-bottom: 0 !important;
+    margin-left: 20px;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+}
+/* =========== End Generics CSS =========== */
+
+
+
+
+/* =========== Header CSS =========== */
+/* header */
+header {
+    background-image: url("../images/background5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+/* header overlay */
+.header-overlay {
+    background-color: rgba(31,31,31,0.65);
+}
+
+.header-top-wrapper {
+    margin-top: 50px;
+}
+
+.header-middle-wrapper {
+    margin-top: 50px;
+}
+
+/* header logo */
+.header-logo1, .header-logo2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* header title */
+.header-title {
+    text-align: center;
+}
+
+.header-title h1{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* header title colors */
+.header-title h1 .header-title-h1-1 {
+    color: #ff503a;
+}
+
+/* header title colors */
+.header-title h1 .header-title-h1-2 {
+    color: #ffd22a;
+}
+
+.header-title h3 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header-title p {
+    color: #ffd22a;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+/* hours of operations - All */
+.header-middle-para1-hours-of-operation {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-middle-para1-hours-of-operation h4{
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.header-middle-para1-hours-of-operation h5{
+    color: #ffd22a;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+/* header car image */
+.header-car-image img {
+    width: 100%;
+}
+
+/* Our services - All */
+.header-middle-para {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.header-middle-para h4{
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.header-middle-para .favicon-information-list-item p {
+    color: #ffd22a !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-shadow: #000000 !important;
+}
+
+.header-middle-para .favicon-information-list-item .favicon-information-list-icon i {
+    color: #ffffff !important;
+}
+
+/*.header-middle-para ul {*/
+    /*padding-left: 15px;*/
+/*}*/
+
+/*.header-middle-para ul li {*/
+    /*color: #ffd22a;*/
+    /*text-shadow: #000000;*/
+    /*font-size: 14px;*/
+    /*line-height: 30px;*/
+    /*font-weight: 600;*/
+/*}*/
+
+/* more info button - Our services */
+.btn-moreInfo,
+.btn-moreInfo:focus,
+.btn-moreInfo:active,
+.btn-moreInfo:visited {
+    margin-left: 10px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: lowercase;
+    border-radius: 3px;
+    border-color: #ffd22a;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.btn-moreInfo:hover {
+    border-color: #ffd22a;
+    background-color: #ffd22a;
+    color: #000;
+}
+
+/*header contacts best way*/
+.header-contacts-best-way {
+    border: 1px solid #ffd22a;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-contacts-best-way h4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: #000000;
+}
+
+.header-contacts-best-way table {
+    width: 100%;
+}
+
+.header-contacts-best-way table tr td{
+    padding: 3px;
+}
+
+.header-contacts-best-way .table-data1 {
+    padding-right: 10px;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 500;
+    text-shadow: #000000;
+}
+
+.header-contacts-best-way .table-data2 {
+    color: #ffd22a;
+    text-align: left;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    text-shadow: #000000;
+}
+
+/*header contacts */
+.header-contacts p {
+    color: #ffd22a;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: #000000;
+}
+
+.header-contacts p span{
+    color: #fff;
+}
+/* =========== End Header CSS =========== */
+
+
+
+
+/* =========== About Us CSS =========== */
+.about-info-n-img-wrapper {
+    margin-top: 30px;
+}
+
+.about-us-image1 {
+    padding-top: 40px;
+}
+
+.about-us-image1 img {
+    width: 100%;
+}
+
+.about-information {
+    padding-right: 10px;
+    margin-top: 20px;
+    float: right;
+}
+
+.about-information h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.about-information h5 {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.about-information p {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+/* =========== End About Us CSS =========== */
+
+
+
+
+/* =========== Gallery CSS =========== */
+.exterior-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.exterior-title h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+}
+
+.interior-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.interior-title h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+}
+
+.other-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.other-title h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+}
+
+.other-gallery .bxslider .item img {
+    color: #000000;
+}
+
+/* =========== End Gallery CSS =========== */
+
+
+
+
+/* =========== Services Section CSS =========== */
+.services-wrapper {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.services-margin1 {
+    margin-bottom: 20px;
+}
+
+.services-margin2 {
+    padding-left: 20px;
+}
+
+.services {
+    margin-bottom: 30px;
+    border: 1px solid #000000;
+}
+
+/* 1 */
+.services h3 {
+    text-align: center;
+    font-size: 27px;
+    line-height: 41px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* 2 */
+.services h3 span {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+}
+/* 3 */
+.services h2 {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+}
+/* 4 */
+.services h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.services-list {
+    margin-left: 5%;
+}
+
+.services-li-item {
+    position: relative;
+}
+
+.services-li-item .services-li-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.services-li-icon i {
+    font-size: 17px;
+    padding-top: 3px;
+    color: #6C6060;
+}
+
+.services-li-item p {
+    margin-left: 20px;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.services-images {
+    margin: 20px;
+    /*margin-left: 10%;*/
+    /*margin-right: 10%;*/
+}
+
+.services-images img {
+    border: 5px solid #000000;
+    width: 100%;
+}
