@@ -167,6 +167,52 @@ p {
 
 
 
+/* =========== Navbar CSS =========== */
+.navbar-default {
+    background-color: transparent;
+    border-color: #444;
+    z-index: 110;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #b5b5b5;
+    font-family: 'Raleway', sans-serif;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: #b5b5b5;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #129cf3;
+}
+
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: #129cf3;
+}
+
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:active,
+.navbar-default .navbar-nav > .active>a:hover {
+    background-color: transparent;
+    color: #129cf3;
+}
+/* =========== End Navbar CSS =========== */
+
+
+
+
 /* =========== Header CSS =========== */
 /* header */
 header {
