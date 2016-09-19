@@ -201,13 +201,6 @@ p {
     background-color: transparent;
     color: #129cf3;
 }
-
-.navbar-default .navbar-nav > .active>a,
-.navbar-default .navbar-nav > .active>a:active,
-.navbar-default .navbar-nav > .active>a:hover {
-    background-color: transparent;
-    color: #129cf3;
-}
 /* =========== End Navbar CSS =========== */
 
 
