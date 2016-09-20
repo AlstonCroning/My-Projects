@@ -169,7 +169,7 @@ p {
 
 /* =========== Navbar CSS =========== */
 .navbar-default {
-    background-color: transparent;
+    background-color: rgba(59,59,59,0.8);
     border-color: #444;
     z-index: 110;
     -webkit-transition: all 1s;
@@ -180,6 +180,9 @@ p {
 
 .navbar-default .navbar-nav > li > a {
     color: #b5b5b5;
+    text-shadow: #000000;
+    /*color: #a4a4a4;*/
+    /*color: #e3e5e5;*/
     font-family: 'Raleway', sans-serif;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -189,17 +192,56 @@ p {
 
 .navbar-default .navbar-nav > li > a:focus {
     color: #b5b5b5;
+    /*color: #a4a4a4;*/
+    /*color: #e3e5e5;*/
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-    color: #129cf3;
+    /*color: #129cf3;*/
+    /*color: #f0fffd;*/
+    color: #00eeff;
+    /*color: #fff;*/
 }
 
 .navbar-default .navbar-nav > .active>a,
 .navbar-default .navbar-nav > .active>a:hover,
 .navbar-default .navbar-nav > .active>a:focus {
     background-color: transparent;
-    color: #129cf3;
+    /*color: #129cf3;*/
+    /*color: #f0fffd;*/
+    color: #00eeff;
+    /*color: #fff;*/
+}
+
+.navbar-brand {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.navbar-brand img {
+    position: relative;
+}
+
+.navbar-brand p,
+.navbar-brand p:active,
+.navbar-brand p:focus,
+.navbar-brand p:visited
+{
+    color: #fff;
+    /*color: #e3e5e5;*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+
+    position: absolute;
+    top: 0;
+    left: 180px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 /* =========== End Navbar CSS =========== */
 
@@ -224,55 +266,8 @@ header {
     background-color: rgba(31,31,31,0.65);
 }
 
-.header-top-wrapper {
-    margin-top: 50px;
-}
-
 .header-middle-wrapper {
     margin-top: 50px;
-}
-
-/* header logo */
-.header-logo1, .header-logo2 {
-    margin-top: 20px;
-    text-align: center;
-}
-
-/* header title */
-.header-title {
-    text-align: center;
-}
-
-.header-title h1{
-    font-size: 35px;
-    line-height: 45px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-/* header title colors */
-.header-title h1 .header-title-h1-1 {
-    color: #ff503a;
-}
-
-/* header title colors */
-.header-title h1 .header-title-h1-2 {
-    color: #ffd22a;
-}
-
-.header-title h3 {
-    color: #fff;
-    font-size: 25px;
-    line-height: 38px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.header-title p {
-    color: #ffd22a;
-    font-size: 17px;
-    line-height: 28px;
-    font-weight: 600;
 }
 
 /* hours of operations - All */

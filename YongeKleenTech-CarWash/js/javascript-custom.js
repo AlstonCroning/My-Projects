@@ -54,7 +54,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     'use strict';
 
-    $('.nav-item, #scroll-to-top').click(function() {
+    $('.nav-item, #scroll-to-top, #copyright-YKT-Link, .navbar-brand').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
