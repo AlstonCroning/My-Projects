@@ -1,6 +1,8 @@
 //Add bx-slider to gallery
 //bxslider-1 (exterior)
 $(document).ready(function () {
+    'use strict';
+
     $('.bxslider-exterior').bxSlider({
         slideWidth: 400,
         auto: true,
@@ -18,6 +20,8 @@ $(document).ready(function () {
 
 //bxslider-2 (interior)
 $(document).ready(function () {
+    'use strict';
+
     $('.bxslider-interior').bxSlider({
         slideWidth: 400,
         auto: true,
@@ -35,6 +39,8 @@ $(document).ready(function () {
 
 //bxslider-3 (other)
 $(document).ready(function () {
+    'use strict';
+
     $('.bxslider-other').bxSlider({
         slideWidth: 400,
         auto: true,
@@ -66,4 +72,18 @@ $(document).ready(function () {
             }
         }
     });
+});
+
+//active menu item on click
+$(document).ready(function () {
+    'use strict';
+
+    $('.nav-item').click(function () {
+        'use strict';
+
+        $('.nav-item').parent().removeClass("active");
+        $(this).parent().addClass("active");
+
+    });
+
 });
