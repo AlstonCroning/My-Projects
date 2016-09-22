@@ -87,3 +87,29 @@ $(document).ready(function () {
     });
 
 });
+
+//highlight menu item on scroll
+$(document).ready(function () {
+    'use strict';
+
+    $(window).scroll(function () {
+        'use strict';
+
+        $('section').each(function () {
+            'use strict';
+
+            var bb = $(this).attr("id"); //HOME, ABOUT, CONTACT, etc...
+            var hei = $(this).outerHeight();
+            var grttop = $(this).offset().top - 70;
+
+            if( $(window).scrollTop() > grttop && $(window).scrollTop() < grttop + hei ) {
+                $(".navbar-nav li a[href='#" + bb + "']").parent().addClass("active");
+            } else {
+                $(".navbar-nav li a[href='#" + bb + "']").parent().removeClass("active");
+            }
+
+        });
+
+    });
+
+});
