@@ -465,6 +465,63 @@ header {
 
 
 
+/* =========== Testimonials =========== */
+.testimonials {
+    background-image: url("../images/background4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.testimonials-overlay {
+    background-color: rgba(31,31,31,0.75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testimonials-content img {
+    border-radius: 70px;
+    border: 3px solid #129cf3;
+    padding: 3px;
+}
+
+.testimonials-content h4{
+    padding-top: 50px;
+    text-align: center;
+    color: #129cf3;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.testimonials-content h5{
+    text-align: center;
+    color: #d8d8d8;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.testimonials-content p{
+    padding-top: 50px;
+    text-align: center;
+    color: #d8d8d8;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+/* =========== End Testimonials =========== */
+
+
+
+
 /* =========== Gallery CSS =========== */
 .exterior-title {
     margin-top: 50px;
