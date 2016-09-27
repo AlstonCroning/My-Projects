@@ -657,11 +657,11 @@ header {
 
 
 
-/* =========== minor contact details CSS =========== */
+/* =========== stay in touch with us (minor contact details) CSS =========== */
 .minor-contacts-details {
     background-color: #2a2c2b;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    /*padding-bottom: 100px;*/
 }
 
 .minor-contacts-details-header h2{
@@ -695,6 +695,17 @@ header {
     line-height: 38px;
 }
 
+.minor-contacts-details-info .stay-in-touch-with-us-hop1 {
+    color: #d8d8d8;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.minor-contacts-details-info .stay-in-touch-with-us-hop1 span {
+    font-size: 17px;
+    line-height: 26px;
+    color: #d8d8d8;
+}
 /* =========== End minor contact details CSS =========== */
 
 
@@ -702,8 +713,8 @@ header {
 
 /* =========== Contact Us CSS =========== */
 .contact-us-footer-social-icons {
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .contact-us-footer-social-icons ul {
