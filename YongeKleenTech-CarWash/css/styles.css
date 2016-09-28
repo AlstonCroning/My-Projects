@@ -672,6 +672,52 @@ header {
     text-align: center;
     margin-bottom: 20px;
 }
+
+.panel-default {
+    background-color: #fafafa !important;
+}
+
+.faq-panel-heading {
+    background-color: #d8d8d8 !important;
+}
+.faq-panel-heading h4 {
+    font-weight: 600 !important;
+    margin-left: 25px !important;
+}
+
+.faq-panel-heading {
+    position: relative !important;
+}
+.faq-panel-heading i {
+    position: absolute !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.faq-panel-body {
+    position: relative;
+}
+.faq-panel-body i {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.faq-panel-body h5 {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.faq-panel-body p {
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.faq-panel-body span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
 /* =========== End FAQ CSS =========== */
 
 
