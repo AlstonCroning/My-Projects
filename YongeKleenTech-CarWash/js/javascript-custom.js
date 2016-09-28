@@ -14,7 +14,9 @@ $(document).ready(function () {
         autoHover: true,
         controls: true,
         captions: true,
-        touchEnabled: true
+        touchEnabled: true,
+        swipeThreshold: 50,
+        oneToOneTouch: true
     });
 });
 
@@ -33,7 +35,9 @@ $(document).ready(function () {
         autoHover: true,
         controls: true,
         captions: true,
-        touchEnabled: true
+        touchEnabled: true,
+        swipeThreshold: 50,
+        oneToOneTouch: true
     });
 });
 
@@ -52,7 +56,9 @@ $(document).ready(function () {
         autoHover: true,
         controls: true,
         captions: true,
-        touchEnabled: true
+        touchEnabled: true,
+        swipeThreshold: 50,
+        oneToOneTouch: true
     });
 });
 

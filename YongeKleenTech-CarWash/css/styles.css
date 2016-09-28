@@ -467,14 +467,15 @@ header {
 
 /* =========== Testimonials =========== */
 .testimonials {
-    background-image: url("../images/background4.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    /*background-image: url("../images/background4.jpg");*/
+    /*background-attachment: fixed;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 50% 50%;*/
+    /*background-size: cover;*/
+    /*-webkit-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    background-color: #2a2c2b;
 }
 
 .testimonials-overlay {
@@ -564,6 +565,39 @@ header {
 }
 
 /* =========== End Gallery CSS =========== */
+
+
+
+
+/* =========== Section Divider CSS =========== */
+.section-divider {
+    background-image: url("../images/background-maserati-gradient4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.section-divider-text h5 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+
+}
+.section-divider-text h3{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+}
+/* =========== End Section Divider CSS =========== */
 
 
 
