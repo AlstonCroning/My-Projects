@@ -39,7 +39,7 @@
 <body>
 
 <!-- header -->
-<header id="HOME">
+<header class="header" id="HOME">
 
     <!-- my version -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -73,233 +73,47 @@
         </div><!-- /.container-fluid -->
     </nav>
 
+    <div class="container">
 
+        <div class="row">
 
-    <!-- header overlay -->
-    <div class="header-overlay">
+            <div class="col-md-12">
 
-        <div class="container">
+                <div class="header-slider">
 
-            <!-- logo/header title -->
-            <!--<div class="row">-->
+        <div id="carousel-header-slider" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-header-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-header-slider" data-slide-to="1"></li>
+                <li data-target="#carousel-header-slider" data-slide-to="2"></li>
+            </ol>
 
-                <!--&lt;!&ndash; header-top-wrapper &ndash;&gt;-->
-                <!--<div class="header-top-wrapper">-->
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
 
-                    <!--&lt;!&ndash; logo left &ndash;&gt;-->
-                    <!--<div class="col-md-1 col-md-offset-2">-->
+                <div class="item active">
+                    <img src="images/header-slider/b1.jpg" alt="img1">
+                </div>
 
-                        <!--<div class="header-logo1">-->
-
-                            <!--<img src="images/logo.png" alt="h-logo">-->
-
-                        <!--</div>-->
-
-                    <!--</div>-->
-
-
-                    <!--&lt;!&ndash; header title &ndash;&gt;-->
-                    <!--<div class="col-md-4 col-md-offset-1">-->
-
-                        <!--<div class="header-title">-->
-
-                            <!--<h1><span class="header-title-h1-1">Yonge</span> <span class="header-title-h1-2">Kleen</span> <span class="header-title-h1-1">Tech</span></h1>-->
-                            <!--<h3>Hand Car Wash</h3>-->
-                            <!--<p>Putting the pride back into your ride!</p>-->
-
-                        <!--</div>-->
-
-                    <!--</div>-->
-
-
-                    <!--&lt;!&ndash; logo right&ndash;&gt;-->
-                    <!--<div class="col-md-1 col-md-offset-1">-->
-
-                        <!--<div class="header-logo2">-->
-
-                            <!--<img src="images/logo.png" alt="h-logo">-->
-
-                        <!--</div>-->
-
-                    <!--</div>-->
-
-                <!--</div>-->
-
-            <!--</div>-->
-
-
-
-
-            <!-- logo -->
-            <!--<div class="row">-->
-
-                <!--<div class="logo-wrapper">-->
-
-                    <!--<div class="col-md-4 col-md-offset-4">-->
-
-                        <!--<div class="logo-my-logo">-->
-
-                            <!--<img src="images/logo-sample48.png" alt="logo-sample44-logo-alt">-->
-                            <!--<h1>Yonge Kleen Tech</h1>-->
-
-                        <!--</div>-->
-
-                    <!--</div>-->
-
-                <!--</div>-->
-
-            <!--</div>-->
-
-
-
-
-
-
-            <!-- Hours of operations/Car image/Our Services -->
-            <div class="row">
-
-                <div class="header-middle-wrapper">
-
-                    <!-- hours of operations -->
-                    <div class="col-md-3">
-
-                        <div class="header-middle-para1-hours-of-operation">
-
-                            <h4>Hours of Operation</h4>
-                            <h5>Monday to Friday</h5>
-                            <h5>8:30 A.M. to 5:30 P.M.</h5>
-                            <br/>
-                            <h4>Free Parking !</h4>
-                            <h5>*Prices Negotiable</h5>
-
-                        </div>
-
-                    </div>
-
-                    <!-- car image -->
-                    <div class="col-md-6">
-
-                        <div class="header-car-image">
-
-                            <img src="images/header-image-maserati4.png" alt="h-m-img">
-
-                        </div>
-
-                    </div>
-
-                    <!-- Our Services -->
-                    <div class="col-md-3">
-
-                        <div class="header-middle-para">
-
-                            <h4>Our Services</h4>
-                            <!--<ul>-->
-                                <!--<li>Basic Wash</li>-->
-                                <!--<li>Full Detailing</li>-->
-                                <!--<li>Exterior & Interior Cleaning</li>-->
-                                <!--<li>Other Services</li>-->
-                            <!--</ul>-->
-                            <div class="favicon-information-list">
-
-                                <div class="favicon-information-list-item">
-
-                                    <div class="favicon-information-list-icon">
-
-                                        <i class="fa fa-check"></i>
-
-                                    </div>
-                                    <p>Basic Wash</p>
-
-                                </div>
-
-                                <div class="favicon-information-list-item">
-
-                                    <div class="favicon-information-list-icon">
-
-                                        <i class="fa fa-check"></i>
-
-                                    </div>
-                                    <p>Exterior and Interior Wash</p>
-
-                                </div>
-
-                                <div class="favicon-information-list-item">
-
-                                    <div class="favicon-information-list-icon">
-
-                                        <i class="fa fa-check"></i>
-
-                                    </div>
-                                    <p>Full Detailing Wash</p>
-
-                                </div>
-
-                                <div class="favicon-information-list-item">
-
-                                    <div class="favicon-information-list-icon">
-
-                                        <i class="fa fa-check"></i>
-
-                                    </div>
-                                    <p>Other Services</p>
-
-                                </div>
-
-                            </div>
-                            <a class="btn btn-default btn-moreInfo" href="#">More Info</a>
-
-                        </div>
-
-                    </div>
-
+                <div class="item">
+                    <img src="images/header-slider/b5.jpg" alt="img2">
                 </div>
 
             </div>
 
-            <!-- best way to contact us details -->
-            <div class="row">
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-header-slider" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-header-slider" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
-                <div class="col-md-4 col-md-offset-4">
-
-                    <div class="header-contacts-best-way">
-
-                        <h4>BEST WAYS TO CONTACT US</h4>
-
-                        <table id="header-table-contacts">
-
-                            <tr>
-
-                                <td class="table-data1">Working hours:</td>
-                                <td class="table-data2">(416) 223-4253 ext. 26</td>
-
-                            </tr>
-
-                            <tr>
-                                <td class="table-data1">Other times:</td>
-                                <td class="table-data2">Email or Cell</td>
-                            </tr>
-
-                        </table>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- contact details -->
-            <div class="row">
-
-                <div class="col-md-8 col-md-offset-2">
-
-                    <div class="header-contacts">
-
-                        <p><span>Phone:</span> (416) 223-4253 ext. 26   <span>Cell:</span> (647) 708-8594   <span>Email:</span> yongekleentech@gmail.com</p>
-                        <p><span>Location:</span> 5255 Yonge Street, Level P4, Toronto ON, M2N 5P8</p>
-
-                    </div>
-
-                </div>
+    </div>
 
             </div>
 
