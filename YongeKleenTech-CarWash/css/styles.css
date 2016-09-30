@@ -169,8 +169,10 @@ p {
 
 /* =========== Navbar CSS =========== */
 .navbar-default {
-    background-color: rgba(59,59,59,0.8);
-    border-color: #444;
+    /*background-color: rgba(59,59,59,0.8);*/
+    background-color: #000000;
+    /*border-color: #444;*/
+    border-color: #000000;
     z-index: 110;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -221,23 +223,27 @@ p {
 }
 
 .navbar-brand img {
-    position: relative;
+    /*position: relative;*/
 }
 
-.navbar-brand p,
-.navbar-brand p:active,
-.navbar-brand p:focus,
-.navbar-brand p:visited
-{
-    color: #fff;
-    /*color: #e3e5e5;*/
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    line-height: 21px;
+.navbar-company-name{
+    margin-right: 700px;
+    display: block;
+}
 
-    position: absolute;
-    top: 0;
-    left: 180px;
+.navbar-company-name a {
+    text-decoration: none;
+}
+.navbar-company-name a > p:hover {
+    color: #129cf3;
+}
+.navbar-company-name a > p
+{
+    padding-top: 10px;
+    color: #d8d8d8;
+    font-size: 25px;
+    line-height: 38px;
+    font-family: 'Raleway', sans-serif;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -250,10 +256,78 @@ p {
 
 /* =========== Header CSS =========== */
 .header {
-    background-color: #2a2c2b;
+    background-color: #000000;
 }
 .header-slider {
     margin-top: 65px;
+    padding-bottom: 200px;
+}
+.carousel-caption {
+    /*margin-bottom: 800px;*/
+    /*margin-right: 300px;*/
+}
+.header-slider-content {
+
+}
+
+.header-slider-content h2{
+    text-align: left;
+    float: left;
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.header-slider-content h1{
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.navbar-social-icons {
+    margin-left: 50px;
+    float: right;
+}
+
+.navbar-social-icons ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar-social-icons ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.navbar-social-icons ul li a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #9d9d9d;
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    line-height: 49px;
+    color: #9d9d9d;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+.navbar-social-icons ul li a:hover {
+    background-color: #129cf3;
+    border: 1px solid #129cf3;
+    color: #fff;
+}
+
+.navbar-social-icons ul li a i {
+    font-size: 20px;
 }
 
 /* =========== End Header CSS =========== */
