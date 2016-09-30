@@ -11,11 +11,11 @@ $(document).ready(function () {
         response: true,
         slideMargin: 5,
         pause: 4000,
-        autoHover: true,
+        // autoHover: true,
         controls: true,
         captions: true,
         touchEnabled: true,
-        swipeThreshold: 50,
+        swipeThreshold: 300,
         oneToOneTouch: true
     });
 });
@@ -32,11 +32,11 @@ $(document).ready(function () {
         response: true,
         slideMargin: 5,
         pause: 5000,
-        autoHover: true,
+        // autoHover: true,
         controls: true,
         captions: true,
         touchEnabled: true,
-        swipeThreshold: 50,
+        swipeThreshold: 300,
         oneToOneTouch: true
     });
 });
@@ -53,11 +53,11 @@ $(document).ready(function () {
         response: true,
         slideMargin: 5,
         pause: 6000,
-        autoHover: true,
+        // autoHover: true,
         controls: true,
         captions: true,
         touchEnabled: true,
-        swipeThreshold: 50,
+        swipeThreshold: 300,
         oneToOneTouch: true
     });
 });

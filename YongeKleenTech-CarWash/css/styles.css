@@ -695,7 +695,7 @@ header {
 .faq {
     background-color: #2a2c2b;
     padding-top: 50px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
 
 .faq-header-title h2 {
@@ -752,6 +752,26 @@ header {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
+}
+
+.faq-last-para {
+    margin-top: 30px;
+}
+.faq-last-para h4 {
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.faq-last-para p{
+    color: #d8d8d8;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 400;
 }
 /* =========== End FAQ CSS =========== */
 
