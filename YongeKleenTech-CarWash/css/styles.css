@@ -5,9 +5,11 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Exo 2', sans-serif;*/
+    /*font-family: 'Trirong', serif;*/
+    /*font-family: 'Raleway', sans-serif;*/
     /*font-family: 'Prompt', sans-serif;*/
-    /*font-family: 'Open Sans', sans-serif;*/
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -186,7 +188,10 @@ p {
     text-shadow: #000000;
     /*color: #a4a4a4;*/
     /*color: #e3e5e5;*/
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Exo 2', sans-serif;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-family: 'Trirong', serif;*/
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -242,7 +247,10 @@ p {
     line-height: 38px;
     font-weight: 600;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Exo 2', sans-serif;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-family: 'Trirong', serif;*/
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
