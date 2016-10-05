@@ -127,13 +127,15 @@ p {
 
 .location-map {
     border: 1px solid #000000;
+    width: 600px;
+    height: 300px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.location-map iframe {
-    width: 100%;
-}
+/*.location-map iframe {*/
+    /*width: 100%;*/
+/*}*/
 
 /* list using favicon */
 .favicon-information-list {
