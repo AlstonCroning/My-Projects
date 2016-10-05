@@ -66,7 +66,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     'use strict';
 
-    $('.nav-item, #scroll-to-top, #copyright-YKT-Link, .navbar-brand').click(function() {
+    $('.nav-item, #scroll-to-top, #copyright-YKT-Link, .navbar-brand, .navbar-company-name > a, #header-slider-content-more-details-id').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
