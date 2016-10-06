@@ -126,8 +126,8 @@ $(document).ready(function () {
 
     var map = new GMaps({
         div: '#location-map-1',
-        lat: '43.772257',
-        lng: '-79.412886',
+        lat: '43.772297',
+        lng: '-79.412849',
         zoom: 17,
         minZoom: 17,
         maxZoom: 18,
@@ -139,8 +139,8 @@ $(document).ready(function () {
     });
 
     map.addMarker({
-        lat: '43.772257',
-        lng: '-79.412886',
+        lat: '43.772297',
+        lng: '-79.412849',
         title: 'yonge Kleen Tech',
         infoWindow: {
             content: '<h4>Yonge Kleen Tech</h4><p>Hand Car Wash</p>'
@@ -149,8 +149,8 @@ $(document).ready(function () {
 
     var map2 = new GMaps({
         div: '#location-map-2',
-        lat: '43.772257',
-        lng: '-79.412886',
+        lat: '43.772297',
+        lng: '-79.412849',
         zoom: 17,
         minZoom: 17,
         maxZoom: 18,
@@ -162,8 +162,8 @@ $(document).ready(function () {
     });
 
     map2.addMarker({
-        lat: '43.772257',
-        lng: '-79.412886',
+        lat: '43.772297',
+        lng: '-79.412849',
         title: 'yonge Kleen Tech',
         infoWindow: {
             content: '<h4>Yonge Kleen Tech</h4><p>Hand Car Wash</p>'
