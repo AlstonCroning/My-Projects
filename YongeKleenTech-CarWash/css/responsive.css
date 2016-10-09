@@ -23,4 +23,17 @@
     .scroll-top a {
         padding: 20px !important;
     }
+
+    /* section divider */
+    .section-divider-text {
+        text-align: center;
+    }
+    .section-divider-text h5 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .section-divider-text h3 {
+        font-size: 25px;
+        line-height: 38px;
+    }
 }
