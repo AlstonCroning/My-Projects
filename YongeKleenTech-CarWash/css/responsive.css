@@ -1,0 +1,26 @@
+@media only screen and (max-width: 767px) {
+    /* navbar */
+    .navbar-brand {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .navbar-brand img {
+        width: 100%;
+    }
+
+    .navbar-company-name {
+        display: none;
+    }
+
+    /* footer */
+    .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .scroll-top {
+        margin-top: 30px !important;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+}

@@ -172,6 +172,11 @@ p {
 
 
 /* =========== Navbar CSS =========== */
+#top-nav-info-id {
+    display: none;
+    /*text-align: center;*/
+}
+
 .navbar-default {
     /*background-color: rgba(59,59,59,0.8);*/
     /*background-color: #000000;*/
