@@ -36,4 +36,27 @@
         font-size: 25px;
         line-height: 38px;
     }
+
+    /* stay in touch with us */
+    .minor-contacts-details-header h2 {
+        font-size: 20px;
+    }
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+
+    }
 }
