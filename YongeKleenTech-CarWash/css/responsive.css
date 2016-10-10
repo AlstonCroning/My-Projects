@@ -1,5 +1,6 @@
-@media only screen and (max-width: 767px) {
-    /* navbar */
+/* max-width: 767px and portrait */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* ========== 1: navbar ========== */
     .navbar-brand {
         margin-top: 0;
         margin-left: 0;
@@ -7,24 +8,60 @@
     .navbar-brand img {
         width: 100%;
     }
-
     .navbar-company-name {
         display: none;
     }
+    /* ========== navbar ========== */
 
-    /* footer */
-    .copyright p {
+
+    /* ========== 2: header ========== */
+    .header-slider {
+        display: block;
+        margin-top: 0;
+        padding-bottom: 266px;
+    }
+    .carousel-caption {
+        /*margin-bottom: -10px;*/
+    }
+    .header-slider-content #ex-int-hdr-slider-h2 {
+        float: right !important;
+        text-align: right !important;
+    }
+    .header-slider-content #ex-int-hdr-slider-h1 {
+        float: right !important;
+        text-align: right !important;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
         font-size: 13px;
-        line-height: 20px;
+        font-weight: 400;
+        margin-bottom: -20px;
     }
-    .scroll-top {
-        margin-top: 30px !important;
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 27px;
+        font-weight: 800;
+        margin-bottom: -30px;
     }
-    .scroll-top a {
-        padding: 20px !important;
+    #company-name-mobile {
+        display: inline;
     }
+    #company-name-mobile p{
+        color: #d8d8d8;
+        margin-top: 70px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    /* ========== header ========== */
 
-    /* section divider */
+
+
+    /* ========== section divider ========== */
     .section-divider-text {
         text-align: center;
     }
@@ -36,8 +73,10 @@
         font-size: 25px;
         line-height: 38px;
     }
+    /* ========== section divider ========== */
 
-    /* stay in touch with us */
+
+    /* ========== stay in touch with us ========== */
     .minor-contacts-details-header h2 {
         font-size: 20px;
     }
@@ -57,6 +96,53 @@
         font-size: 15px;
         line-height: 23px;
         font-weight: 400;
-
     }
+    /* ========== stay in touch with us ========== */
+
+
+    /* ========== footer ========== */
+    .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .scroll-top {
+        margin-top: 30px !important;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== footer ========== */
+}
+
+/* max-width: 767px and landscape */
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+    /* ========== navbar ========== */
+    .navbar-company-name {
+        display: inline-block;
+    }
+    .navbar-company-name a p {
+        font-size: 20px;
+    }
+    /* ========== navbar ========== */
+
+
+    /* ========== header ========== */
+    .carousel-caption {
+        margin-bottom: 50px;
+    }
+
+    .header-slider-content h2{
+        float: none;
+        text-align: left;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .header-slider-content h1{
+        float: none;
+        text-align: right;
+        font-size: 90px;
+        font-weight: 900;
+    }
+    /* ========== header ========== */
 }

@@ -306,6 +306,9 @@ p {
 .navbar-social-icons ul li a i {
     font-size: 20px;
 }
+#navbar-company-name-mobile {
+    display: none;
+}
 /* =========== End Navbar CSS =========== */
 
 
