@@ -784,7 +784,6 @@ p {
     color: #d8d8d8;
     text-transform: uppercase;
 }
-
 .minor-contacts-details-info {
     text-align: center;
 }
@@ -794,16 +793,18 @@ p {
     font-size: 70px;
     line-height: 105px;
 }
-
 .minor-contacts-details-info h2 {
     color: #d8d8d8;
     text-transform: uppercase;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
 }
-
 .minor-contacts-details-info p {
     color: #d8d8d8;
-    font-size: 25px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
 }
 
 #stay-in-touch-with-us-hop1 {
@@ -811,7 +812,6 @@ p {
     font-size: 17px;
     line-height: 26px;
 }
-
 #stay-in-touch-with-us-hop1 span {
     font-size: 17px;
     line-height: 26px;
