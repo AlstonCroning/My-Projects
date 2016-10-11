@@ -326,7 +326,6 @@ p {
     text-align: left;
     float: left;
     color: #ffffff;
-    /*color: #d8d8d8;*/
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 400;
@@ -335,20 +334,8 @@ p {
     float: left;
     text-align: left;
     color: #ffffff;
-    /*color: #d8d8d8;*/
     font-size: 80px;
     font-weight: 600;
-}
-/*.header-slider-content h4 {*/
-    /*float: left;*/
-    /*text-align: left;*/
-    /*color: #ffffff;*/
-    /*font-size: 55px;*/
-    /*font-weight: 600;*/
-/*}*/
-
-.header-slider-bottom-text {
-    text-align: center;
 }
 
 .header-slider-content-other-services-para,
@@ -361,12 +348,16 @@ p {
     color: #ffffff;
     font-size: 55px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .header-slider-content-other-services-para:hover {
     text-decoration: none;
     color: #ffffff;
 }
 
+.header-slider-bottom-text {
+    text-align: center;
+}
 .header-slider-bottom-text h1 a,
 .header-slider-bottom-text h1 a:active,
 .header-slider-bottom-text h1 a:visited,
@@ -380,7 +371,7 @@ p {
     font-weight: 700;
 }
 .header-slider-bottom-text h1 a:hover {
-    color: #d8d8d8;
+    color: #129cf3;
 }
 /* =========== End Header CSS =========== */
 
