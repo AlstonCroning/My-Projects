@@ -320,16 +320,8 @@ p {
 }
 .header-slider {
     margin-top: 120px;
-    padding-bottom: 200px;
+    margin-bottom: 20px;
 }
-.carousel-caption {
-    /*margin-bottom: 800px;*/
-    /*margin-right: 300px;*/
-}
-.header-slider-content {
-
-}
-
 .header-slider-content h2{
     text-align: left;
     float: left;
@@ -339,7 +331,6 @@ p {
     text-transform: uppercase;
     font-weight: 400;
 }
-
 .header-slider-content h1{
     float: left;
     text-align: left;
@@ -348,16 +339,48 @@ p {
     font-size: 80px;
     font-weight: 600;
 }
-.header-slider-content h1 a,
-.header-slider-content h1 a:active,
-.header-slider-content h1 a:focus,
-.header-slider-content h1 a:visited {
+/*.header-slider-content h4 {*/
+    /*float: left;*/
+    /*text-align: left;*/
+    /*color: #ffffff;*/
+    /*font-size: 55px;*/
+    /*font-weight: 600;*/
+/*}*/
+
+.header-slider-bottom-text {
+    text-align: center;
+}
+
+.header-slider-content-other-services-para,
+.header-slider-content-other-services-para:active,
+.header-slider-content-other-services-para:focus,
+.header-slider-content-other-services-para:visited {
+    text-decoration: none;
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 600;
+}
+.header-slider-content-other-services-para:hover {
     text-decoration: none;
     color: #ffffff;
 }
-.header-slider-content h1 a:hover {
+
+.header-slider-bottom-text h1 a,
+.header-slider-bottom-text h1 a:active,
+.header-slider-bottom-text h1 a:visited,
+.header-slider-bottom-text h1 a:focus
+{
     text-decoration: none;
-    color: #ffffff;
+    color: #d8d8d8;
+    font-size: 21px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header-slider-bottom-text h1 a:hover {
+    color: #d8d8d8;
 }
 /* =========== End Header CSS =========== */
 

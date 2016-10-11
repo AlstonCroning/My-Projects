@@ -1,9 +1,13 @@
 /* max-width: 767px and portrait */
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* ========== 1: navbar ========== */
+    .navbar-default {
+        background-color: rgb(0, 0, 0);
+    }
     .navbar-brand {
-        margin-top: 0;
-        margin-left: 0;
+        /*margin-top: 0;*/
+        /*margin-left: 0;*/
+        /*padding: 0 15px;*/
     }
     .navbar-brand img {
         width: 100%;
@@ -16,9 +20,11 @@
 
     /* ========== 2: header ========== */
     .header-slider {
-        display: block;
+        /*display: block;*/
+        /*padding-bottom: 266px;*/
         margin-top: 0;
-        padding-bottom: 266px;
+        padding-bottom: 300px;
+
     }
     .carousel-caption {
         /*margin-bottom: -10px;*/
@@ -50,12 +56,28 @@
     }
     #company-name-mobile p{
         color: #d8d8d8;
-        margin-top: 70px;
-        margin-bottom: 5px;
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 700;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: 900;
         text-align: center;
+    }
+
+    .header-slider-bottom-text {
+        /*margin-top: 30px;*/
+        /*color: #ffffff;*/
+        /*text-align: center;*/
+        /*text-transform: uppercase;*/
+    }
+    .header-slider-bottom-text h1{
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: 900;
+    }
+    .header-slider-bottom-text h5{
+        font-weight: 400;
+        font-size: 13px;
     }
     /* ========== header ========== */
 
@@ -114,6 +136,19 @@
     /* ========== footer ========== */
 }
 
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+
+}
+
+
+
+
+
+
+
+
+
+
 /* max-width: 767px and landscape */
 @media only screen and (max-width: 767px) and (orientation: landscape) {
 
@@ -145,4 +180,8 @@
         font-weight: 900;
     }
     /* ========== header ========== */
+}
+
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+
 }
