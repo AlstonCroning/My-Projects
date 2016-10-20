@@ -309,6 +309,9 @@ p {
 #navbar-company-name-mobile {
     display: none;
 }
+.logo-mobile-extra-small {
+    display: none;
+}
 /* =========== End Navbar CSS =========== */
 
 
