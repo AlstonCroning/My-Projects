@@ -512,11 +512,15 @@ and (orientation: portrait) {
     .about-information {
         text-align: center;
     }
+    .favicon-information-list-icon {
+        display: none;
+    }
     .favicon-information-list {
-        text-align: left
+        text-align: center;
+        /*margin-left: 30%;*/
     }
     .about-us-image1 {
-        display: none
+        display: none;
     }
 
     .contact-details {
@@ -528,8 +532,7 @@ and (orientation: portrait) {
         margin-bottom: 20px;
     }
     #location-map-1 {
-        width: 260px;
-        height: 200px;
+        display: none;
     }
     /* ========== End About Us ========== */
 
@@ -614,8 +617,9 @@ and (orientation: landscape) {
     .navbar-brand {
         margin-top: 0;
         margin-left: 0;
-        padding: 0 15px;
+        /*padding: 0 15px;*/
     }
+
     .navbar-company-name {
         display: none;
     }
@@ -682,11 +686,15 @@ and (orientation: landscape) {
     .about-information {
         text-align: center;
     }
+    .favicon-information-list-icon {
+        display: none;
+    }
     .favicon-information-list {
-        text-align: left
+        text-align: center;
+        /*margin-left: 30%;*/
     }
     .about-us-image1 {
-        display: none
+        display: none;
     }
 
     .contact-details {
@@ -696,10 +704,10 @@ and (orientation: landscape) {
     .location-info-title {
         margin-top: 20px;
         margin-bottom: 20px;
+        /*text-align: left;*/
     }
     #location-map-1 {
-        width: 260px;
-        height: 200px;
+        display: none;
     }
     /* ========== End About Us ========== */
 
@@ -707,6 +715,19 @@ and (orientation: landscape) {
     /* ============ Services ============ */
     .services-images {
         display: none;
+    }
+    .services-margin2 h2, .services-margin2 h5 {
+        text-align: center;
+    }
+    /*.services-margin2 .services-li-item {*/
+        /*margin-left: 10%;*/
+    /*}*/
+    .services-li-icon {
+        display: none;
+    }
+    .services-list {
+        margin-left: -5%;
+        text-align: center;
     }
     /* ============ End Services ============ */
 
@@ -726,7 +747,7 @@ and (orientation: landscape) {
 
     /* ========== contact us ========== */
     #location-map-2 {
-        width: 260px;
+        width: 420px;
         height: 200px;
     }
     /* ========== end contact us ========== */
@@ -776,17 +797,17 @@ and (orientation: landscape) {
 
 
 
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+}
 
 /* Note books */
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
 
 }
 
-/* Tablets */
-@media only screen and (min-width: 333px) and (max-width: 768px) {
 
-}
 
 
 
