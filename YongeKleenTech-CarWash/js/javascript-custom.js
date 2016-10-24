@@ -170,3 +170,11 @@ $(document).ready(function () {
         }
     });
 });
+
+//animation - initialize animation
+$(document).ready(function () {
+    'use strict';
+
+    new WOW().init();
+});
+
