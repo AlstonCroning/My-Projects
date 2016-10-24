@@ -555,7 +555,21 @@ and (orientation: portrait) {
         font-size: 25px;
         line-height: 38px;
     }
-    /* ========== section divider ========== */
+    /* ========== End section divider ========== */
+
+
+    /* ========== Gallery ========== */
+    .exterior-title {
+        text-align: center;
+    }
+    .interior-title {
+        text-align: center;
+    }
+    .other-title {
+        text-align: center;
+    }
+    /* ========== End Gallery ========== */
+
 
     /* ========== contact us ========== */
     #location-map-2 {
@@ -743,7 +757,20 @@ and (orientation: landscape) {
         font-size: 25px;
         line-height: 38px;
     }
-    /* ========== section divider ========== */
+    /* ========== End section divider ========== */
+
+
+    /* ========== Gallery ========== */
+    .exterior-title {
+        text-align: center;
+    }
+    .interior-title {
+        text-align: center;
+    }
+    .other-title {
+        text-align: center;
+    }
+    /* ========== End Gallery ========== */
 
     /* ========== contact us ========== */
     #location-map-2 {

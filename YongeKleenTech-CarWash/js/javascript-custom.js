@@ -175,6 +175,9 @@ $(document).ready(function () {
 $(document).ready(function () {
     'use strict';
 
+    // var wow = new WOW({
+    //     live: true
+    // });
     new WOW().init();
 });
 
