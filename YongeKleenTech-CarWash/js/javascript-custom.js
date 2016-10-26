@@ -1,3 +1,106 @@
+//navbar hide and show
+$(document).ready(function () {
+    'use strict';
+
+    $('#follow-as-scroll').hide();
+
+});
+$(document).ready(function () {
+    'use strict';
+
+    $(window).scroll(function () {
+        'use strict';
+
+        if( $(window).scrollTop() < 80 ) {
+
+            $('.navbar-fixed-top').show();
+            $('#follow-as-scroll').hide();
+
+        }
+
+        else {
+
+            $('.navbar-fixed-top').hide();
+            $('#follow-as-scroll').show();
+
+        }
+
+    });
+
+    $('#follow-as-scroll').click(function () {
+        'use strict';
+
+        $('.navbar-fixed-top').show();
+        $('#follow-as-scroll').hide();
+
+    });
+
+});
+
+
+//add smooth scrolling
+$(document).ready(function () {
+    'use strict';
+
+    $('.nav-item, #scroll-to-top, #copyright-YKT-Link, .navbar-brand, .navbar-company-name > a, .header-slider-content-other-services-para, .header-slider-bottom-text h1 a').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});
+
+
+//highlight menu item on scroll
+$(document).ready(function () {
+    'use strict';
+
+    $(window).scroll(function () {
+        'use strict';
+
+        $('section').each(function () {
+            'use strict';
+
+            var bb = $(this).attr("id"); //HOME, ABOUT, CONTACT, etc...
+            var hei = $(this).outerHeight();
+            var grttop = $(this).offset().top - 70;
+
+            if( $(window).scrollTop() > grttop && $(window).scrollTop() < grttop + hei ) {
+                $(".navbar-nav li a[href='#" + bb + "']").parent().addClass("active");
+            } else {
+                $(".navbar-nav li a[href='#" + bb + "']").parent().removeClass("active");
+            }
+
+        });
+
+    });
+
+});
+
+
+//active menu item on click
+$(document).ready(function () {
+    'use strict';
+
+    $('.nav-item').click(function () {
+        'use strict';
+
+        $('.nav-item').parent().removeClass("active");
+        $(this).parent().addClass("active");
+
+
+
+    });
+
+});
+
+
 //Add bx-slider to gallery
 //bxslider-1 (exterior)
 $(document).ready(function () {
@@ -62,63 +165,6 @@ $(document).ready(function () {
     });
 });
 
-//add smooth scrolling
-$(document).ready(function () {
-    'use strict';
-
-    $('.nav-item, #scroll-to-top, #copyright-YKT-Link, .navbar-brand, .navbar-company-name > a, .header-slider-content-other-services-para, .header-slider-bottom-text h1 a').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-    });
-});
-
-//active menu item on click
-$(document).ready(function () {
-    'use strict';
-
-    $('.nav-item').click(function () {
-        'use strict';
-
-        $('.nav-item').parent().removeClass("active");
-        $(this).parent().addClass("active");
-
-    });
-
-});
-
-//highlight menu item on scroll
-$(document).ready(function () {
-    'use strict';
-
-    $(window).scroll(function () {
-        'use strict';
-
-        $('section').each(function () {
-            'use strict';
-
-            var bb = $(this).attr("id"); //HOME, ABOUT, CONTACT, etc...
-            var hei = $(this).outerHeight();
-            var grttop = $(this).offset().top - 70;
-
-            if( $(window).scrollTop() > grttop && $(window).scrollTop() < grttop + hei ) {
-                $(".navbar-nav li a[href='#" + bb + "']").parent().addClass("active");
-            } else {
-                $(".navbar-nav li a[href='#" + bb + "']").parent().removeClass("active");
-            }
-
-        });
-
-    });
-
-});
 
 //gmaps - google maps
 $(document).ready(function () {
@@ -180,4 +226,3 @@ $(document).ready(function () {
     // });
     new WOW().init();
 });
-

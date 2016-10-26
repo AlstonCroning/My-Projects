@@ -17,6 +17,31 @@ body {
 p {
     font-size: 14px;
 }
+
+#follow-as-scroll,
+#follow-as-scroll:active,
+#follow-as-scroll:focus,
+#follow-as-scroll:visited{
+    display: none;
+    text-decoration: none;
+    position:fixed;
+    top:0;
+    left: 81%;
+    /*margin-top: 80px;*/
+    padding: 5px;
+    z-index: 110 !important;
+    background-color: #129cf3;
+    border-radius: 3px;
+}
+#follow-as-scroll:hover {
+    display: none;
+    text-decoration: none;
+    background-color: #315f72;
+}
+#follow-as-scroll i {
+    color: #ffffff;
+    font-size: 25px;
+}
 /* =========== End Basic CSS =========== */
 
 
