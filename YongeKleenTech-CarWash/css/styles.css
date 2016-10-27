@@ -28,7 +28,7 @@ p {
     top:0;
     left: 81%;
     /*margin-top: 80px;*/
-    padding: 5px;
+    padding: 2px 5px;
     z-index: 110 !important;
     background-color: #129cf3;
     border-radius: 3px;
@@ -38,7 +38,10 @@ p {
     text-decoration: none;
     background-color: #315f72;
 }
-#follow-as-scroll i {
+#follow-as-scroll h4 {
+    line-height: 0;
+}
+#follow-as-scroll h4 i {
     color: #ffffff;
     font-size: 25px;
 }

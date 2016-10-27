@@ -12,7 +12,7 @@ and (max-width: 319px) {
     #follow-as-scroll:hover {
         display: none !important;
     }
-    #follow-as-scroll i {
+    #follow-as-scroll h4 i {
         display: none !important;
         font-size: 0 !important;
     }
@@ -249,7 +249,7 @@ and (orientation: portrait) {
     #follow-as-scroll:hover {
         display: none !important;
     }
-    #follow-as-scroll i {
+    #follow-as-scroll h4 i {
         display: none !important;
         font-size: 0 !important;
     }
@@ -485,7 +485,7 @@ and (orientation: landscape) {
     #follow-as-scroll:hover {
         display: none !important;
     }
-    #follow-as-scroll i {
+    #follow-as-scroll h4 i {
         display: none !important;
         font-size: 0 !important;
     }
@@ -724,7 +724,7 @@ and (orientation: portrait) {
         position: fixed !important;
         top: 0;
         left: 80%;
-        padding: 5px;
+        padding: 0 5px !important;
         z-index: 110 !important;
         background-color: #129cf3;
     }
@@ -733,7 +733,10 @@ and (orientation: portrait) {
         text-decoration: none;
         background-color: #315f72;
     }
-    #follow-as-scroll i {
+    #follow-as-scroll h4 {
+        line-height: 0;
+    }
+    #follow-as-scroll h4 i {
         font-size: 15px;
     }
     /* ============ End Show Menu section ============ */
@@ -955,7 +958,7 @@ and (orientation: landscape) {
         top:0;
         left: 87%;
         /*float: right;*/
-        padding: 5px;
+        padding: 0 5px;
         z-index: 110 !important;
         background-color: #129cf3;
     }
@@ -964,7 +967,10 @@ and (orientation: landscape) {
         text-decoration: none;
         background-color: #315f72;
     }
-    #follow-as-scroll i {
+    #follow-as-scroll h4 {
+        line-height: 0;
+    }
+    #follow-as-scroll h4 i {
         font-size: 15px;
     }
     /* ============ End Show Menu section ============ */
