@@ -61,10 +61,12 @@ $(document).ready(function () {
 $(document).ready(function () {
     'use strict';
 
+    $(".navbar-nav li a[href='#HOME']").parent().addClass("active");
+
     $(window).scroll(function () {
         'use strict';
 
-        $('section').each(function () {
+        $('section,header').each(function () {
             'use strict';
 
             var bb = $(this).attr("id"); //HOME, ABOUT, CONTACT, etc...
