@@ -609,20 +609,19 @@ p {
 .services-margin1 {
     margin-bottom: 20px;
     background-color: #d8d8d8;
-    /*box-shadow: 5px 5px 10px 1px #000000;*/
 }
 
 .services-bw {
     padding-bottom: 12%;
 }
 .services-ExIn {
-    padding-bottom: 4%;
+    padding-bottom: 4.294%;
 }
-/*.services-FullD {*/
-    /*!*padding-bottom: 20%;*!*/
-/*}*/
+.services-FullD {
+    padding-bottom: 0.39%;
+}
 .services-other {
-    padding-bottom: 25.5%;
+    padding-bottom: 26.00999%;
 }
 
 .services-margin1 .col-md-3,
@@ -642,10 +641,6 @@ p {
     color: #ffffff;
 }
 
-/*.services,*/
-/*.services:active*/
-/*{}*/
-/*.services:hover {}*/
 
 /* 1 */
 .services h3 {
