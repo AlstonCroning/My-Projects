@@ -415,16 +415,18 @@ p {
 }
 
 .about-us-image1 {
-    padding-top: 40px;
+    padding-top: 20%;
 }
 
 .about-us-image1 img {
+    border-radius: 5%;
     width: 100%;
 }
 
 .about-information {
     padding-right: 10px;
     margin-top: 20px;
+    margin-bottom: 80px;
     float: right;
 }
 
@@ -715,10 +717,15 @@ p {
     text-decoration: none !important;
 }
 
+
 .faq-panel-heading a i {
     position: absolute !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+    top: 50% !important;
+    left: 0 !important;
+    /*margin-top: 50% !important;*/
+    /*margin-top: 50% !important;*/
+    /*margin-left: 0 !important;*/
+    /*padding-left: 0 !important;*/
 }
 .faq-panel-heading a h4 {
     font-weight: 600 !important;

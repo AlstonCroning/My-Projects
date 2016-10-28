@@ -107,18 +107,18 @@ and (max-width: 319px) {
         display: none;
     }
 
-    .contact-details {
-        display: none;
-    }
+    /*.contact-details {*/
+        /*display: none;*/
+    /*}*/
 
-    .location-info-title {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+    /*.location-info-title {*/
+        /*margin-top: 20px;*/
+        /*margin-bottom: 20px;*/
+    /*}*/
 
-    #location-map-1 {
-        display: none;
-    }
+    /*#location-map-1 {*/
+        /*display: none;*/
+    /*}*/
     /* ============ End about us section ============ */
 
 
@@ -343,18 +343,18 @@ and (orientation: portrait) {
         display: none;
     }
 
-    .contact-details {
-        display: none;
-    }
+    /*.contact-details {*/
+        /*display: none;*/
+    /*}*/
 
-    .location-info-title {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+    /*.location-info-title {*/
+        /*margin-top: 20px;*/
+        /*margin-bottom: 20px;*/
+    /*}*/
 
-    #location-map-1 {
-        display: none;
-    }
+    /*#location-map-1 {*/
+        /*display: none;*/
+    /*}*/
     /* ============ End about us section ============ */
 
 
@@ -580,18 +580,18 @@ and (orientation: landscape) {
         display: none;
     }
 
-    .contact-details {
-        display: none;
-    }
+    /*.contact-details {*/
+        /*display: none;*/
+    /*}*/
 
-    .location-info-title {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+    /*.location-info-title {*/
+        /*margin-top: 20px;*/
+        /*margin-bottom: 20px;*/
+    /*}*/
 
-    #location-map-1 {
-        display: none;
-    }
+    /*#location-map-1 {*/
+        /*display: none;*/
+    /*}*/
     /* ============ End about us section ============ */
 
 
@@ -841,17 +841,17 @@ and (orientation: portrait) {
         display: none;
     }
 
-    .contact-details {
-        display: none;
-    }
+    /*.contact-details {*/
+        /*display: none;*/
+    /*}*/
 
-    .location-info-title {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    #location-map-1 {
-        display: none;
-    }
+    /*.location-info-title {*/
+        /*margin-top: 20px;*/
+        /*margin-bottom: 20px;*/
+    /*}*/
+    /*#location-map-1 {*/
+        /*display: none;*/
+    /*}*/
     /* ========== End About Us ========== */
 
 
@@ -1090,18 +1090,18 @@ and (orientation: landscape) {
         display: none;
     }
 
-    .contact-details {
-        display: none;
-    }
+    /*.contact-details {*/
+        /*display: none;*/
+    /*}*/
 
-    .location-info-title {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        /*text-align: left;*/
-    }
-    #location-map-1 {
-        display: none;
-    }
+    /*.location-info-title {*/
+        /*margin-top: 20px;*/
+        /*margin-bottom: 20px;*/
+        /*!*text-align: left;*!*/
+    /*}*/
+    /*#location-map-1 {*/
+        /*display: none;*/
+    /*}*/
     /* ========== End About Us ========== */
 
 
