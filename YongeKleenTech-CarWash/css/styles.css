@@ -599,25 +599,60 @@ p {
     margin-bottom: 20px;
 }
 
-.services-margin1 {
-    margin-bottom: 20px;
-}
+
+
 
 .services-margin2 {
     padding-left: 20px;
 }
 
-.services {
-    margin-bottom: 30px;
-    border: 1px solid #000000;
+.services-margin1 {
+    margin-bottom: 20px;
+    background-color: #d8d8d8;
+    /*box-shadow: 5px 5px 10px 1px #000000;*/
 }
+
+.services-bw {
+    padding-bottom: 12%;
+}
+.services-ExIn {
+    padding-bottom: 4%;
+}
+/*.services-FullD {*/
+    /*!*padding-bottom: 20%;*!*/
+/*}*/
+.services-other {
+    padding-bottom: 25.5%;
+}
+
+.services-margin1 .col-md-3,
+.services-margin1 .col-md-3:active
+{
+    box-shadow: 5px 5px 50px 5px #000000;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.services-margin1 .col-md-3:hover {
+    box-shadow: 5px 5px 50px 5px #000000;
+    background-color: #2a2c2b;
+    border-color: transparent;
+    color: #ffffff;
+}
+
+/*.services,*/
+/*.services:active*/
+/*{}*/
+/*.services:hover {}*/
 
 /* 1 */
 .services h3 {
     text-align: center;
     font-size: 27px;
     line-height: 41px;
-    color: #000000;
+    /*color: #000000;*/
     font-weight: 400; /* 500 */
     text-transform: uppercase;
 }
