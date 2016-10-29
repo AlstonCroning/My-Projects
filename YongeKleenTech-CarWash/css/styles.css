@@ -641,6 +641,10 @@ p {
     color: #ffffff;
 }
 
+/*.services-margin1 .col-md-3:hover .services .services-margin2 .services-list .services-li-item .services-li-icon i{*/
+    /*!*color: #129cf3 !important;*!*/
+/*}*/
+
 
 /* 1 */
 .services h3 {
@@ -658,13 +662,15 @@ p {
     font-weight: 700;
 }
 /* 3 */
-.services h2 {
+.services .services-margin2 h2 {
+    text-align: center;
     font-size: 48px;
     line-height: 72px;
-    font-weight: 700;
+    font-weight: 900;
 }
 /* 4 */
-.services h5 {
+.services .services-margin2 h5 {
+    text-align: center;
     font-size: 16px;
     line-height: 24px;
     font-weight: 700;
@@ -672,6 +678,7 @@ p {
 
 .services-list {
     margin-left: 5%;
+    margin-top: 20%;
 }
 
 .services-li-item {
@@ -688,6 +695,7 @@ p {
     font-size: 17px;
     padding-top: 3px;
     color: #6C6060;
+    /*color: #129cf3;*/
 }
 
 .services-li-item p {
@@ -697,16 +705,16 @@ p {
     font-weight: 400; /* 500 */
 }
 
-.services-images {
-    margin: 20px;
-    /*margin-left: 10%;*/
-    /*margin-right: 10%;*/
-}
+/*.services-images {*/
+    /*margin: 20px;*/
+    /*!*margin-left: 10%;*!*/
+    /*!*margin-right: 10%;*!*/
+/*}*/
 
-.services-images img {
-    border: 5px solid #000000;
-    width: 100%;
-}
+/*.services-images img {*/
+    /*border: 5px solid #000000;*/
+    /*width: 100%;*/
+/*}*/
 /* =========== End Services Section CSS =========== */
 
 
