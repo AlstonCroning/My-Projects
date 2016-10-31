@@ -384,6 +384,7 @@ p {
 .header-slider-content-other-services-para:hover {
     text-decoration: none;
     color: #ffffff;
+    font-weight: 900;
 }
 
 .header-slider-bottom-text {
