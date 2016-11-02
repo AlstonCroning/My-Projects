@@ -854,7 +854,8 @@ and (orientation: portrait) {
 
     .header-slider-bottom-text {
         margin-top: 100px;
-        margin-bottom: 150px;
+        /*margin-bottom: 150px;*/
+        margin-bottom: 75%;
     }
     .header-slider-bottom-text h1 a,
     .header-slider-bottom-text h1 a:active,
@@ -1369,7 +1370,7 @@ and (max-width: 767px) {
 
 
 
-/* small to tablets - landscape*/
+/* small tablets - landscape*/
 @media only screen
 and (min-width: 768px)
 and (max-width: 991px)
@@ -1599,10 +1600,11 @@ and (orientation: landscape)
     /* ========== End footer ========== */
 }
 
-/* medium to large tablets - portrait*/
+
+/* medium tablets and small - medium laptops - portrait*/
 @media only screen
 and (min-width: 768px)
-and (max-width: 1024px)
+and (max-width: 991px)
 and (orientation: portrait)
 {
 
@@ -1661,7 +1663,7 @@ and (orientation: portrait)
 
     /* ========== Header ========== */
     .header-slider {
-        margin-top: 15% !important;
+        margin-top: 3.5% !important;
         margin-bottom: 0 !important;
     }
     .header-slider-custom-container {
@@ -1670,7 +1672,7 @@ and (orientation: portrait)
     .header-slider-bottom-text {
         /*margin-top: -40px;*/
         margin-top: 10% !important;
-        margin-bottom: 60% !important;
+        margin-bottom: 90% !important;
     }
     .header-slider-bottom-text h1 a,
     .header-slider-bottom-text h1 a:active,
@@ -1828,6 +1830,9 @@ and (orientation: portrait)
     }
     /* ========== End footer ========== */
 }
+
+
+
 
 
 /* bigger tablets and small notebooks - landscape*/
@@ -2017,6 +2022,178 @@ and (orientation: landscape) {
     /* ========== End footer ========== */
 }
 
+/* large tablets and large laptops and all desktops - portrait*/
+@media only screen
+and (min-width: 992px)
+/*and (max-width: 1080px)*/
+and (orientation: portrait)
+{
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none;
+        text-decoration: none;
+        position: fixed !important;
+        top:0;
+        /*left:  90%;*/
+        left: 87%;
+        /*float: right;*/
+        padding: 0 5px;
+        z-index: 110 !important;
+        background-color: #129cf3;
+    }
+    #follow-as-scroll:hover {
+        display: none;
+        text-decoration: none;
+        background-color: #315f72;
+    }
+    #follow-as-scroll h4 {
+        line-height: 0;
+    }
+    #follow-as-scroll h4 i {
+        font-size: 20px;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+    /* ========== navbar ========== */
+    .navbar-default {
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-brand {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0 !important;
+        padding: 2% 0 60px 0 !important;
+    }
+    .navbar-brand img {
+        width: 90% !important;
+    }
+    .navbar-company-name a p{
+        /*display:  none !important;*/
+        font-size: 23px !important;
+        padding-top: 10px !important;
+    }
+    .nav-item {
+        font-size: 14px !important;
+        padding: 18px 8px !important;
+    }
+    /* ========== End navbar ========== */
+
+    /* ========== Header ========== */
+    .header-slider {
+        /*margin-top: 3.77% !important;*/
+        margin-top: 3% !important;
+        margin-bottom: 0 !important;
+    }
+    /*.header-slider-custom-container {*/
+        /*!*width: 100% !important;*!*/
+    /*}*/
+    .header-slider-bottom-text {
+        /*margin-top: -40px;*/
+        margin-top: 10% !important;
+        margin-bottom: 90% !important;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus {
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 5%;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 5%;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 40px;
+        text-shadow: #000000;
+        color: #ffffff;
+    }
+    .header-slider-content-other-services-para:hover {
+        color: #ffffff;
+        text-shadow: #000000;
+        font-weight: 900;
+    }
+    /* ========== End header ========== */
+
+
+
+
+    /* ============ Services ============ */
+    .services-bw {
+        padding-bottom: 24%;
+    }
+    .services-ExIn {
+        padding-bottom: 11.8%;
+    }
+    .services-FullD {
+        padding-bottom: 4.5%;
+    }
+    .services-other {
+        padding-bottom: 43.5%;
+    }
+    /* ============ End Services ============ */
+
+
+    /* ========== stay in touch with us ========== */
+    /*.minor-contacts-details-header h2 {*/
+    /*font-size: 20px;*/
+    /*}*/
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== End stay in touch with us ========== */
+
+
+    /* ========== footer ========== */
+    .copyright p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    /*.scroll-top {*/
+    /*margin-top: 30px !important;*/
+    /*}*/
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== End footer ========== */
+}
 
 /* large tablets and notebooks/laptops and desktops - landscape*/
 @media only screen
