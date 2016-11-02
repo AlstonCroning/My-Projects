@@ -1601,7 +1601,7 @@ and (orientation: landscape)
 }
 
 
-/* medium tablets and small - medium laptops - portrait*/
+/* medium tablets and (small - medium laptops) - portrait*/
 @media only screen
 and (min-width: 768px)
 and (max-width: 991px)
@@ -1791,6 +1791,16 @@ and (orientation: portrait)
         line-height: 78px;
     }
     /* ============ End Services ============ */
+
+
+
+    /* ============ Section divider ============ */
+    .section-divider-text {
+        text-align: center !important;
+    }
+    /* ============ End Section divider ============ */
+
+
 
 
     /* ========== stay in touch with us ========== */
@@ -2156,6 +2166,13 @@ and (orientation: portrait)
     }
     /* ============ End Services ============ */
 
+    /* ============ Section divider ============ */
+    .section-divider-text {
+        text-align: center !important;
+    }
+    /* ============ End Section divider ============ */
+
+
 
     /* ========== stay in touch with us ========== */
     /*.minor-contacts-details-header h2 {*/
@@ -2195,6 +2212,7 @@ and (orientation: portrait)
     /* ========== End footer ========== */
 }
 
+
 /* large tablets and notebooks/laptops and desktops - landscape*/
 @media only screen
 and (min-width: 1200px)
@@ -2214,6 +2232,27 @@ and (orientation: landscape)
         margin-top: -2%;
         margin-bottom: 180px;
     }
+}
+
+/* large laptops and large desktops - portrait*/
+@media only screen
+and (min-width: 1200px)
+and (orientation: portrait)
+{
+    /* ============ Services ============ */
+    .services-bw {
+        padding-bottom: 16.8%;
+    }
+    .services-ExIn {
+        padding-bottom: 9%;
+    }
+    .services-FullD {
+        padding-bottom: 5.2%;
+    }
+    .services-other {
+        padding-bottom: 30.9%;
+    }
+    /* ============ End Services ============ */
 }
 
 
