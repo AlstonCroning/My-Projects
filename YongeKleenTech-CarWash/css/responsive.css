@@ -1487,6 +1487,7 @@ and (orientation: landscape)
 
     /* ========== About Us ========== */
     .about-information {
+        margin-left: 10% !important;
         text-align: center;
     }
     .favicon-information-list-icon {
@@ -1718,6 +1719,7 @@ and (orientation: portrait)
 
     /* ========== About Us ========== */
     .about-information {
+        margin-left: 10% !important;
         text-align: center;
     }
     .favicon-information-list-icon {
@@ -1980,10 +1982,11 @@ and (orientation: landscape) {
         /*text-align: center !important;*/
     }
     .services-bw {
-        padding-bottom: 21.9%;
+        /*padding-bottom: 21.9%;*/
+        padding-bottom: 22.05%;
     }
     .services-ExIn {
-        padding-bottom: 7.3%;
+        padding-bottom: 7.2%;
     }
     .services-FullD {
         padding-bottom: 5.288%;
