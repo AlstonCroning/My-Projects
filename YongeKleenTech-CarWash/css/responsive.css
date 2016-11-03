@@ -981,9 +981,9 @@ and (orientation: portrait) {
 
 
     /* ========== contact us ========== */
-    #location-map-2 {
-        width: 260px;
-        height: 200px;
+    .location-map {
+        min-width: 200px;
+        min-height: 200px;
     }
     /* ========== end contact us ========== */
 
@@ -1301,11 +1301,38 @@ and (orientation: landscape) {
     }
     /* ========== End Gallery ========== */
 
+    /*!* ========== contact us ========== *!*/
+    /*#location-map-2 {*/
+        /*width: 420px;*/
+        /*height: 200px;*/
+    /*}*/
+    /*!* ========== end contact us ========== *!*/
+
     /* ========== contact us ========== */
-    #location-map-2 {
-        width: 420px;
-        height: 200px;
+    .location-map {
+        min-width: 200px;
+        min-height: 200px;
+        /*margin-top: 20px !important;*/
     }
+    /*.location-info-title {*/
+        /*!*display: block !important;*!*/
+        /*text-align: center;*/
+        /*color: #000000;*/
+        /*margin-top: 50px;*/
+    /*}*/
+    /*.location-info-title h4{*/
+        /*!*display: block !important;*!*/
+        /*font-size: 20px;*/
+        /*line-height: 30px;*/
+        /*font-weight: 600;*/
+        /*text-transform: uppercase;*/
+    /*}*/
+    /*.location-info-title p {*/
+        /*!*display: block !important;*!*/
+        /*font-size: 17px;*/
+        /*line-height: 26px;*/
+        /*font-weight: 400; !* 500 *!*/
+    /*}*/
     /* ========== end contact us ========== */
 
 

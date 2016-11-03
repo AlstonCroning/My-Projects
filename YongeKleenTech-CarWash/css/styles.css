@@ -135,12 +135,14 @@ p {
 
 /* location infomation & location map */
 .location-info-title {
+    /*display: none;*/
     text-align: center;
     color: #000000;
     margin-top: 50px;
 }
 
 .location-info-title h4{
+    /*display: none;*/
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
@@ -148,17 +150,21 @@ p {
 }
 
 .location-info-title p {
+    /*display: none;*/
     font-size: 17px;
     line-height: 26px;
     font-weight: 400; /* 500 */
 }
 
 .location-map {
-    border: 1px solid #000000;
-    width: 600px;
-    height: 300px;
+    /*border: 1px solid #000000;*/
+    /*width: 600px;*/
+    /*height: 300px;*/
+    min-width: 200px;
+    min-height: 400px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    box-shadow: 10px 10px 30px #000000;
+    /*margin-bottom: 30px;*/
 }
 
 /*.location-map iframe {*/
@@ -822,48 +828,7 @@ p {
 
 
 /* =========== Contact Us CSS =========== */
-.contact-us-footer-social-icons {
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
 
-.contact-us-footer-social-icons ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.contact-us-footer-social-icons ul li {
-    list-style: none;
-    display: inline;
-    padding-left: 10px;
-}
-
-.contact-us-footer-social-icons ul li a {
-    display: inline-block;
-    border: 1px solid #9d9d9d;
-    border-radius: 3px;
-    background-color: transparent;
-    text-decoration: none;
-    color: #9d9d9d;
-    width: 45px;
-    height: 45px;
-    line-height: 49px;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-}
-
-.contact-us-footer-social-icons ul li a:hover {
-    background-color: #129cf3;
-    border-color: #129cf3;
-    color: #ffffff;
-}
-
-.contact-us-footer-social-icons ul li a i{
-    font-size: 20px;
-}
 /* =========== End Contact Us CSS =========== */
 
 
@@ -918,6 +883,49 @@ p {
     font-size: 17px;
     line-height: 26px;
     color: #d8d8d8;
+}
+
+.contact-us-footer-social-icons {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.contact-us-footer-social-icons ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.contact-us-footer-social-icons ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.contact-us-footer-social-icons ul li a {
+    display: inline-block;
+    border: 1px solid #9d9d9d;
+    border-radius: 3px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #9d9d9d;
+    width: 45px;
+    height: 45px;
+    line-height: 49px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.contact-us-footer-social-icons ul li a:hover {
+    background-color: #129cf3;
+    border-color: #129cf3;
+    color: #ffffff;
+}
+
+.contact-us-footer-social-icons ul li a i{
+    font-size: 20px;
 }
 /* =========== End stay in touch with us (minor contact details) CSS =========== */
 
