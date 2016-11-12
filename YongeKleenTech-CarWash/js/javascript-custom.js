@@ -1,3 +1,11 @@
+//animation - initialize animation
+$(document).ready(function () {
+    'use strict';
+
+    new WOW().init();
+});
+
+
 //navbar hide and show
 $(document).ready(function () {
     'use strict';
@@ -37,7 +45,6 @@ $(document).ready(function () {
 
 });
 
-
 //add smooth scrolling
 $(document).ready(function () {
     'use strict';
@@ -55,7 +62,6 @@ $(document).ready(function () {
         }
     });
 });
-
 
 //highlight menu item on scroll
 $(document).ready(function () {
@@ -85,7 +91,6 @@ $(document).ready(function () {
 
 });
 
-
 //active menu item on click
 $(document).ready(function () {
     'use strict';
@@ -108,18 +113,16 @@ $(document).ready(function () {
 
     $('.bxslider-exterior').bxSlider({
         slideWidth: 400,
-        auto: true,
         minSlides: 1,
         maxSlides: 3,
         responsive: true,
         slideMargin: 5,
-        pause: 4000,
-        autoHover: true,
         controls: true,
         captions: true,
+        infiniteLoop: false,
+        hideControlOnEnd: true,
         touchEnabled: true,
-        swipeThreshold: 300,
-        oneToOneTouch: true
+        swipeThreshold: 0
     });
 });
 
@@ -129,18 +132,16 @@ $(document).ready(function () {
 
     $('.bxslider-interior').bxSlider({
         slideWidth: 400,
-        auto: true,
         minSlides: 1,
         maxSlides: 3,
         responsive: true,
         slideMargin: 5,
-        pause: 5000,
-        autoHover: true,
         controls: true,
         captions: true,
+        infiniteLoop: false,
+        hideControlOnEnd: true,
         touchEnabled: true,
-        swipeThreshold: 300,
-        oneToOneTouch: true
+        swipeThreshold: 0
     });
 });
 
@@ -150,18 +151,16 @@ $(document).ready(function () {
 
     $('.bxslider-other').bxSlider({
         slideWidth: 400,
-        auto: true,
         minSlides: 1,
         maxSlides: 3,
         responsive: true,
         slideMargin: 5,
-        pause: 6000,
-        autoHover: true,
         controls: true,
         captions: true,
+        infiniteLoop: false,
+        hideControlOnEnd: true,
         touchEnabled: true,
-        swipeThreshold: 300,
-        oneToOneTouch: true
+        swipeThreshold: 0
     });
 });
 
@@ -193,11 +192,4 @@ $(document).ready(function () {
             '<p>5255 Yonge Street,<br/>Parking Level P4,<br/>Level P4<br/>Toronto, ON<br/>M2N 5P8</p>'
         }
     });
-});
-
-//animation - initialize animation
-$(document).ready(function () {
-    'use strict';
-
-    new WOW().init();
 });

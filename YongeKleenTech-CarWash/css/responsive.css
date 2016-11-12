@@ -880,8 +880,9 @@ and (orientation: portrait) {
         box-shadow: 5px 0 20px 5px #000000 !important;
     }
     .services-margin1 .col-md-3:hover {
-        background-color: #2a2c2b !important;
-        box-shadow: 5px 0 30px 10px #000000 !important;
+        background-color: #d8d8d8 !important;
+        color: #000000;
+        box-shadow: 5px 0 20px 5px #000000 !important;
     }
     .services-list {
         margin-left: 10% !important;
