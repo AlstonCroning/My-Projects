@@ -1,0 +1,716 @@
+/* =========== Basic CSS =========== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 14px;
+}
+
+#follow-as-scroll,
+#follow-as-scroll:active,
+#follow-as-scroll:focus,
+#follow-as-scroll:visited{
+    display: none;
+    text-decoration: none;
+    position:fixed;
+    top:0;
+    left: 81%;
+    padding: 2px 5px;
+    z-index: 110 !important;
+    background-color: #129cf3;
+    border-radius: 3px;
+}
+#follow-as-scroll:hover {
+    display: none;
+    text-decoration: none;
+    background-color: #315f72;
+}
+#follow-as-scroll h4 {
+    line-height: 0;
+}
+#follow-as-scroll h4 i {
+    color: #ffffff;
+    font-size: 25px;
+}
+/* =========== End Basic CSS =========== */
+
+
+
+
+/* =========== Generics CSS =========== */
+
+/* section title */
+.section-title {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.section-title h2{
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129cf3;
+    margin-left: -30px;
+}
+.section-title p {
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+/* location infomation & location map */
+.location-info-title {
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+}
+.location-info-title h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.location-info-title p {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.location-map {
+    min-width: 200px;
+    min-height: 400px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 30px #000000;
+}
+
+/* list using favicon */
+.favicon-information-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.favicon-information-list-item {
+    position: relative;
+}
+.favicon-information-list-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.favicon-information-list-icon i {
+    font-size: 17px;
+    padding-top: 3px;
+    color: #129cf3;
+}
+.favicon-information-list-item p {
+    padding-bottom: 0 !important;
+    margin-left: 20px;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+}
+/* =========== End Generics CSS =========== */
+
+
+
+
+/* =========== Navbar CSS =========== */
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: #444;
+    z-index: 110;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #b5b5b5;
+    text-shadow: #000000;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #b5b5b5;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #00eeff;
+}
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: #00eeff;
+}
+.navbar-brand {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    position: relative;
+}
+.navbar-company-name{
+    display: inline-block;
+}
+.navbar-company-name a {
+    text-decoration: none;
+}
+.navbar-company-name a > p {
+    padding-top: 10px;
+    color: #d8d8d8;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.navbar-company-name a > p:hover {
+    color: #129cf3;
+}
+#navbar-company-name-mobile {
+    display: none;
+}
+.logo-mobile-extra-small {
+    display: none;
+}
+/* =========== End Navbar CSS =========== */
+
+
+
+
+/* =========== Header CSS =========== */
+.header {
+    background-color: #000000;
+}
+.header-slider {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.header-slider-content h2{
+    text-align: left;
+    float: left;
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.header-slider-content h1{
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 600;
+}
+.header-slider-content-other-services-para,
+.header-slider-content-other-services-para:active,
+.header-slider-content-other-services-para:focus,
+.header-slider-content-other-services-para:visited {
+    text-decoration: none;
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header-slider-content-other-services-para:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+}
+.header-slider-bottom-text {
+    text-align: center;
+}
+.header-slider-bottom-text h1 a,
+.header-slider-bottom-text h1 a:active,
+.header-slider-bottom-text h1 a:visited,
+.header-slider-bottom-text h1 a:focus
+{
+    text-decoration: none;
+    color: #d8d8d8;
+    font-size: 21px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header-slider-bottom-text h1 a:hover {
+    color: #129cf3;
+}
+/* =========== End Header CSS =========== */
+
+
+
+
+/* =========== About Us CSS =========== */
+.about-info-n-img-wrapper {
+    margin-top: 30px;
+}
+.about-us-image1 {
+    padding-top: 20%;
+}
+.about-us-image1 img {
+    border-radius: 5%;
+    width: 100%;
+}
+.about-information {
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    float: right;
+}
+.about-information h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.about-information h5 {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.about-information p {
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+/* =========== End About Us CSS =========== */
+
+
+
+
+/* =========== Testimonials =========== */
+.testimonials {
+    background-color: #2a2c2b;
+}
+.testimonials-overlay {
+    background-color: rgba(31,31,31,0.75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.testimonials-content img {
+    border-radius: 70px;
+    border: 3px solid #129cf3;
+    padding: 3px;
+}
+.testimonials-content h4{
+    padding-top: 50px;
+    text-align: center;
+    color: #129cf3;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.testimonials-content h5{
+    text-align: center;
+    color: #d8d8d8;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+.testimonials-content p{
+    padding-top: 50px;
+    text-align: center;
+    color: #d8d8d8;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+/* =========== End Testimonials =========== */
+
+
+
+
+/* =========== Gallery CSS =========== */
+.exterior-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.exterior-title h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+}
+.interior-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.interior-title h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+}
+.other-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.other-title h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+}
+.other-gallery .bxslider .item img {
+    color: #000000;
+}
+/* =========== End Gallery CSS =========== */
+
+
+
+
+/* =========== Section Divider CSS =========== */
+.section-divider {
+    background-image: url("../images/background-maserati-gradient4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.section-divider-text h5 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.section-divider-text h3{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+}
+/* =========== End Section Divider CSS =========== */
+
+
+
+
+/* =========== Services Section CSS =========== */
+.services-wrapper {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.services-margin2 {
+    padding-left: 20px;
+}
+.services-margin1 {
+    margin-bottom: 20px;
+    background-color: #d8d8d8;
+}
+.services-bw {
+    padding-bottom: 12%;
+}
+.services-ExIn {
+    padding-bottom: 4.294%;
+}
+.services-FullD {
+    padding-bottom: 0.39%;
+}
+.services-other {
+    padding-bottom: 26.00999%;
+}
+.services-margin1 .col-md-3,
+.services-margin1 .col-md-3:active
+{
+    box-shadow: 5px 5px 50px 5px #000000;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.services-margin1 .col-md-3:hover {
+    box-shadow: 5px 5px 50px 5px #000000;
+    background-color: #2a2c2b;
+    border-color: transparent;
+    color: #ffffff;
+}
+.services h3 {
+    text-align: center;
+    font-size: 27px;
+    line-height: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.services h3 span {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.services .services-margin2 h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 900;
+}
+.services .services-margin2 h5 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.services-list {
+    margin-left: 5%;
+    margin-top: 20%;
+}
+.services-li-item {
+    position: relative;
+}
+.services-li-item .services-li-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.services-li-icon i {
+    font-size: 17px;
+    padding-top: 3px;
+    color: #6C6060;
+}
+.services-li-item p {
+    margin-left: 20px;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+}
+/* =========== End Services Section CSS =========== */
+
+
+
+
+/* =========== FAQ CSS =========== */
+.faq {
+    background-color: #2a2c2b;
+    padding-top: 50px;
+}
+.faq-header-title h2 {
+    color: #d8d8d8;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.panel-default {
+    background-color: #fafafa !important;
+}
+.faq-panel-heading {
+    background-color: #d8d8d8 !important;
+}
+.faq-panel-heading a,
+.faq-panel-heading a:focus,
+.faq-panel-heading a:active,
+.faq-panel-heading a:visited
+{
+    text-decoration: none !important;
+    color: inherit !important;
+    position: relative !important;
+}
+.faq-panel-heading a:hover {
+    text-decoration: none !important;
+}
+.faq-panel-heading a i {
+    position: absolute !important;
+    top: 50% !important;
+    left: 0 !important;
+}
+.faq-panel-heading a h4 {
+    font-weight: 600 !important;
+    margin-left: 25px !important;
+}
+.faq-panel-body {
+    position: relative;
+}
+.faq-panel-body i {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.faq-panel-body h5 {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.faq-panel-body p {
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.faq-panel-body span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.faq-last-para {
+    margin-top: 30px;
+}
+.faq-last-para h4 {
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.faq-last-para p{
+    color: #d8d8d8;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+/* =========== End FAQ CSS =========== */
+
+
+
+
+/* =========== stay in touch with us (minor contact details) CSS =========== */
+.minor-contacts-details {
+    background-color: #2a2c2b;
+    padding-top: 50px;
+}
+.minor-contacts-details-header h2{
+    margin-bottom: 50px;
+    text-align: center;
+    color: #d8d8d8;
+    text-transform: uppercase;
+}
+.minor-contacts-details-info {
+    text-align: center;
+}
+.minor-contacts-details-info-icon i{
+    color: #129cf3;
+    font-size: 70px;
+    line-height: 105px;
+}
+.minor-contacts-details-info h2 {
+    color: #d8d8d8;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.minor-contacts-details-info p {
+    color: #d8d8d8;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.contact-us-footer-social-icons {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.contact-us-footer-social-icons ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.contact-us-footer-social-icons ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+.contact-us-footer-social-icons ul li a {
+    display: inline-block;
+    border: 1px solid #9d9d9d;
+    border-radius: 3px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #9d9d9d;
+    width: 45px;
+    height: 45px;
+    line-height: 49px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.contact-us-footer-social-icons ul li a:hover {
+    background-color: #129cf3;
+    border-color: #129cf3;
+    color: #ffffff;
+}
+.contact-us-footer-social-icons ul li a i{
+    font-size: 20px;
+}
+/* =========== End stay in touch with us (minor contact details) CSS =========== */
+
+
+
+
+/* =========== Footer CSS =========== */
+.footer {
+    background-color: #1C1D21;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.copyright {
+    width: 100%;
+}
+.copyright p {
+    color: #D5FBFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.copyright p a {
+    text-decoration: none;
+    color: #129cf3;
+}
+.scroll-top {
+    text-align: right;
+}
+.scroll-top a {
+    background-color: #9d9d9d;
+    border-radius: 5px;
+    padding: 25px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.scroll-top a:hover {
+    background-color: #129cf3;
+}
+.scroll-top a i {
+    color: #fff;
+    font-size: 25px;
+}
+/* =========== End Footer CSS =========== */

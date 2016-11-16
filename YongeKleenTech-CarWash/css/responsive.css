@@ -1,0 +1,2133 @@
+/* mobile/desktop extra small browser size - portrait & landscape */
+@media only screen
+and (max-width: 319px) {
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none !important;
+    }
+    #follow-as-scroll:hover {
+        display: none !important;
+    }
+    #follow-as-scroll h4 i {
+        display: none !important;
+        font-size: 0 !important;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+
+
+    /* ============ header ============ */
+    .navbar {
+        display: none !important;
+    }
+    .navbar-brand img {
+        display: none !important;
+    }
+    .navbar-company-name {
+        display: none !important;
+    }
+    #company-name-mobile p {
+        color: #d8d8d8;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: 900;
+    }
+    .logo-mobile-extra-small{
+        display: block;
+    }
+    .logo-mobile-extra-small a img {
+        width: 100%;
+    }
+    .header-slider {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: -20px;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 800;
+        margin-bottom: -30px;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 15px;
+    }
+    .header-slider-bottom-text {
+        text-align: center;
+        margin-top: -10px;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus
+    {
+        text-decoration: none;
+        color: #d8d8d8;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    /* ============ End header ============ */
+
+
+
+
+    /* ============ about us section ============ */
+    .about-information {
+        text-align: center;
+        margin-top: 0;
+    }
+    .favicon-information-list {
+        text-align: left;
+    }
+    .about-us-image1 {
+        display: none;
+    }
+    /* ============ End about us section ============ */
+
+
+
+
+    /* ============ testimonials ============ */
+    .testimonials-content h4{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    /* ============ End testimonials ============ */
+
+
+
+
+    /* ============ Services ============ */
+    .services-wrapper {
+        margin-bottom: 0 !important;
+    }
+    .services-margin1 {
+        margin-bottom: 0 !important;
+        background-color: transparent !important;
+    }
+    .services-margin1 .col-md-3,
+    .services-margin1 .col-md-3:active
+    {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #d8d8d8 !important;
+        box-shadow: none !important;
+    }
+    .services-margin1 .col-md-3:hover {
+        background-color: #2a2c2b !important;
+        box-shadow: none !important;
+    }
+    /* ============ End Services ============ */
+
+
+
+
+    /* ============ Section divider ============ */
+    .section-divider {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    /* ============ End Section divider ============ */
+
+
+
+
+    /* ============ Gallery ============ */
+    .exterior-title {
+        text-align: center;
+    }
+    .interior-title {
+        text-align: center;
+    }
+    .other-title {
+        text-align: center;
+    }
+    .bx-wrapper .bx-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: transparent !important;
+        width: 100% !important;
+    }
+    .bx-wrapper .bx-caption span {
+        color: #ffffff !important;
+        text-shadow: #000000 !important;
+        font-family: 'Open Sans', sans-serif;
+        display: block !important;
+        font-size: 10px !important;
+        line-height: 13px !important;
+        text-align: center;
+    }
+    /* ============ End Gallery ============ */
+
+
+
+
+    /* ========== Contact Us ========== */
+    #location-map-2 {
+        display: none;
+    }
+    /* ========== End Contact Us ========== */
+
+
+
+
+    /* ========== Stay in touch with us ========== */
+    .minor-contacts-details-header h2 {
+        font-size: 20px;
+    }
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== End Stay in touch with us ========== */
+
+
+
+
+    /* ========== Footer ========== */
+    .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .scroll-top {
+        margin-top: 30px !important;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== End Footer ========== */
+}
+
+/* mobile smallest devices - portrait */
+@media only screen
+and (max-width: 320px)
+and (max-height: 320px)
+and (orientation: portrait) {
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none !important;
+    }
+    #follow-as-scroll:hover {
+        display: none !important;
+    }
+    #follow-as-scroll h4 i {
+        display: none !important;
+        font-size: 0 !important;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+
+
+    /* ============ nav and header ============ */
+    .navbar {
+        display: none !important;
+    }
+    .navbar-brand img {
+        display: none !important;
+    }
+    .navbar-company-name {
+        display: none !important;
+    }
+    #company-name-mobile p {
+        color: #d8d8d8;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: 900;
+    }
+    .logo-mobile-extra-small{
+        display: block;
+    }
+    .logo-mobile-extra-small a img {
+        width: 100%;
+    }
+    .header-slider {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: -20px;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 800;
+        margin-bottom: -30px;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 15px;
+    }
+    .header-slider-bottom-text {
+        text-align: center;
+        margin-top: -10px;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus
+    {
+        text-decoration: none;
+        color: #d8d8d8;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    /* ============ End nav and header ============ */
+
+
+
+
+    /* ============ about us section ============ */
+    .about-information {
+        text-align: center;
+        margin-top: 0;
+    }
+    .favicon-information-list {
+        text-align: left;
+    }
+    .about-us-image1 {
+        display: none;
+    }
+    /* ============ End about us section ============ */
+
+
+
+
+    /* ============ testimonials ============ */
+    .testimonials-content h4{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    /* ============ End testimonials ============ */
+
+
+
+
+    /* ============ Services ============ */
+    .services-wrapper {
+        margin-bottom: 0 !important;
+    }
+    .services-margin1 {
+        margin-bottom: 0 !important;
+        background-color: transparent !important;
+    }
+    .services-margin1 .col-md-3,
+    .services-margin1 .col-md-3:active
+    {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #d8d8d8 !important;
+        box-shadow: none !important;
+    }
+    .services-margin1 .col-md-3:hover {
+        background-color: #2a2c2b !important;
+        box-shadow: none !important;
+    }
+    /* ============ End Services ============ */
+
+
+
+
+    /* ============ Section divider ============ */
+    .section-divider {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    /* ============ End Section divider ============ */
+
+
+
+
+    /* ============ Gallery ============ */
+    .exterior-title {
+        text-align: center;
+    }
+    .interior-title {
+        text-align: center;
+    }
+    .other-title {
+        text-align: center;
+    }
+    .bx-wrapper .bx-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: transparent !important;
+        width: 100% !important;
+    }
+    .bx-wrapper .bx-caption span {
+        color: #ffffff !important;
+        text-shadow: #000000 !important;
+        font-family: 'Open Sans', sans-serif;
+        display: block !important;
+        font-size: 10px !important;
+        line-height: 13px !important;
+        text-align: center;
+    }
+    /* ============ End Gallery ============ */
+
+
+
+
+    /* ========== Contact Us ========== */
+    #location-map-2 {
+        display: none;
+    }
+    /* ========== End Contact Us ========== */
+
+
+
+
+    /* ========== Stay in touch with us ========== */
+    .minor-contacts-details-header h2 {
+        font-size: 20px;
+    }
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== End Stay in touch with us ========== */
+
+
+
+
+    /* ========== Footer ========== */
+    .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .scroll-top {
+        margin-top: 30px !important;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== End Footer ========== */
+}
+
+/* mobile smallest devices - landscape */
+@media only screen
+and (max-width: 320px)
+and (max-height: 320px)
+and (orientation: landscape) {
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none !important;
+    }
+    #follow-as-scroll:hover {
+        display: none !important;
+    }
+    #follow-as-scroll h4 i {
+        display: none !important;
+        font-size: 0 !important;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+
+
+    /* ============ nav and header ============ */
+    .navbar {
+        display: none !important;
+    }
+    .navbar-brand img {
+        display: none !important;
+    }
+    .navbar-company-name {
+        display: none !important;
+    }
+    #company-name-mobile p {
+        color: #d8d8d8;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        font-weight: 900;
+    }
+    .logo-mobile-extra-small{
+        display: block;
+    }
+    .logo-mobile-extra-small a img {
+        width: 100%;
+    }
+    .header-slider {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: -20px;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 800;
+        margin-bottom: -30px;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 15px;
+    }
+    .header-slider-bottom-text {
+        text-align: center;
+        margin-top: -10px;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus
+    {
+        text-decoration: none;
+        color: #d8d8d8;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    /* ============ End nav and header ============ */
+
+
+
+
+    /* ============ about us section ============ */
+    .about-information {
+        text-align: center;
+        margin-top: 0;
+    }
+    .favicon-information-list {
+        text-align: left;
+    }
+    .about-us-image1 {
+        display: none;
+    }
+    /* ============ End about us section ============ */
+
+
+
+
+    /* ============ testimonials ============ */
+    .testimonials-content h4{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    /* ============ End testimonials ============ */
+
+
+
+
+    /* ============ Services ============ */
+    .services-wrapper {
+        margin-bottom: 0 !important;
+    }
+    .services-margin1 {
+        margin-bottom: 0 !important;
+        background-color: transparent !important;
+    }
+    .services-margin1 .col-md-3,
+    .services-margin1 .col-md-3:active
+    {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #d8d8d8 !important;
+        box-shadow: none !important;
+    }
+    .services-margin1 .col-md-3:hover {
+        background-color: #2a2c2b !important;
+        box-shadow: none !important;
+    }
+    /* ============ End Services ============ */
+
+
+
+
+    /* ============ Section divider ============ */
+    .section-divider {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    /* ============ End Section divider ============ */
+
+
+
+
+    /* ============ Gallery ============ */
+    .exterior-title {
+        text-align: center;
+    }
+    .interior-title {
+        text-align: center;
+    }
+    .other-title {
+        text-align: center;
+    }
+    .bx-wrapper .bx-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: transparent !important;
+        width: 100% !important;
+    }
+    .bx-wrapper .bx-caption span {
+        color: #ffffff !important;
+        text-shadow: #000000 !important;
+        font-family: 'Open Sans', sans-serif;
+        display: block !important;
+        font-size: 10px !important;
+        line-height: 13px !important;
+        text-align: center;
+    }
+    /* ============ End Gallery ============ */
+
+
+
+
+    /* ========== Contact Us ========== */
+    #location-map-2 {
+        display: none;
+    }
+    /* ========== End Contact Us ========== */
+
+
+
+
+    /* ========== Stay in touch with us ========== */
+    .minor-contacts-details-header h2 {
+        font-size: 20px;
+    }
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== End Stay in touch with us ========== */
+
+
+
+
+    /* ========== Footer ========== */
+    .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .scroll-top {
+        margin-top: 30px !important;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== End Footer ========== */
+}
+
+
+
+
+/* mobile medium to large - portrait */
+@media only screen
+and (min-width: 320px)
+and (max-width: 767px)
+and (orientation: portrait) {
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none;
+        text-decoration: none;
+        position: fixed !important;
+        top: 0;
+        left: 80%;
+        padding: 0 5px !important;
+        z-index: 110 !important;
+        background-color: #129cf3;
+    }
+    #follow-as-scroll:hover {
+        display: none;
+        text-decoration: none;
+        background-color: #315f72;
+    }
+    #follow-as-scroll h4 {
+        line-height: 0;
+    }
+    #follow-as-scroll h4 i {
+        font-size: 15px;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+
+
+    /* ========== navbar ========== */
+    .navbar-default {
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-brand {
+        margin: 0 0 10px 0 !important;
+        padding: 0 !important;
+    }
+    .navbar-brand img {
+        width: 100% !important;
+    }
+    .navbar-company-name {
+        display: none;
+    }
+    /* ========== end navbar ========== */
+
+
+
+
+    /* ========== header ========== */
+    #company-name-mobile {
+        display: inline;
+    }
+    #company-name-mobile p{
+        color: #d8d8d8;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .header-slider {
+        margin-top: 0;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: -20px;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 27px;
+        font-weight: 800;
+        margin-bottom: -30px;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 20px;
+    }
+    .header-slider-bottom-text {
+        margin-top: 100px;
+        margin-bottom: 75%;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus {
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    /* ========== End header ========== */
+
+
+
+
+    /* ========== About Us ========== */
+    .about-information {
+        text-align: center;
+    }
+    .favicon-information-list-icon {
+        display: none;
+    }
+    .favicon-information-list {
+        text-align: center;
+    }
+    .about-us-image1 {
+        display: none;
+    }
+    /* ========== End About Us ========== */
+
+
+
+
+    /* ============ Services ============ */
+    .services-wrapper {
+        margin-bottom: 0 !important;
+    }
+    .services-margin1 {
+        margin-bottom: 0 !important;
+        background-color: transparent !important;
+    }
+    .services-bw {
+        padding-bottom: 10%;
+    }
+    .services-ExIn {
+        padding-bottom: 10%;
+    }
+    .services-FullD {
+        padding-bottom: 10%;
+    }
+    .services-other {
+        padding-bottom: 10%;
+    }
+    .services-margin1 .col-md-3,
+    .services-margin1 .col-md-3:active
+    {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #d8d8d8 !important;
+        box-shadow: 5px 0 20px 5px #000000 !important;
+    }
+    .services-margin1 .col-md-3:hover {
+        background-color: #2a2c2b !important;
+        box-shadow: 5px 0 30px 10px #000000 !important;
+    }
+    .services-list {
+        margin-left: 10% !important;
+        margin-top: 20%; !important;
+    }
+    .services-margin2 {
+        padding-left: -20px !important;
+    }
+    /* ============ End Services ============ */
+
+
+
+
+    /* ========== section divider ========== */
+    .section-divider-text {
+        text-align: center;
+    }
+    .section-divider-text h5 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .section-divider-text h3 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    /* ========== End section divider ========== */
+
+
+
+
+    /* ========== Gallery ========== */
+    .exterior-title {
+        text-align: center;
+    }
+    .interior-title {
+        text-align: center;
+    }
+    .other-title {
+        text-align: center;
+    }
+    /* ========== End Gallery ========== */
+
+
+
+
+    /* ========== contact us ========== */
+    .location-map {
+        min-width: 200px;
+        min-height: 200px;
+    }
+    /* ========== end contact us ========== */
+
+
+
+
+    /* ========== stay in touch with us ========== */
+    .minor-contacts-details-header h2 {
+        font-size: 20px;
+    }
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== stay in touch with us ========== */
+
+
+
+
+    /* ========== footer ========== */
+    .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .scroll-top {
+        margin-top: 30px !important;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== footer ========== */
+}
+
+/* mobile medium to large - landscape */
+@media only screen
+and (min-width: 360px)
+and (max-width: 767px)
+and (orientation: landscape) {
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none;
+        text-decoration: none;
+        position: fixed !important;
+        top:0;
+        left: 87%;
+        padding: 0 5px;
+        z-index: 110 !important;
+        background-color: #129cf3;
+    }
+    #follow-as-scroll:hover {
+        display: none;
+        text-decoration: none;
+        background-color: #315f72;
+    }
+    #follow-as-scroll h4 {
+        line-height: 0;
+    }
+    #follow-as-scroll h4 i {
+        font-size: 15px;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+
+
+    /* ========== navbar ========== */
+    .navbar-default {
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-brand {
+        margin: 0 0 10px 0 !important;
+        padding: 0 !important;
+    }
+    .navbar-brand img {
+        width: 100% !important;
+    }
+    .navbar-company-name {
+        display: none;
+    }
+    /* ========== End navbar ========== */
+
+
+
+
+    /* ========== header ========== */
+    #company-name-mobile {
+        display: inline;
+    }
+    #company-name-mobile p{
+        color: #d8d8d8;
+        margin-top: 12%;
+        margin-bottom: 3%;
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .header-slider {
+        margin-top: 0;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 50%;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 27px;
+        font-weight: 800;
+        margin-bottom: 55%;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 20px;
+        text-shadow: #000000;
+        color: #ffffff;
+    }
+    .header-slider-content-other-services-para:hover {
+        color: #ffffff;
+        text-shadow: #000000;
+        font-weight: 900;
+    }
+    .header-slider-bottom-text {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus {
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    /* ========== End header ========== */
+
+
+
+
+    /* ========== About Us ========== */
+    .about-information {
+        text-align: center;
+    }
+    .favicon-information-list-icon {
+        display: none;
+    }
+    .favicon-information-list {
+        text-align: center;
+    }
+    .about-us-image1 {
+        display: none;
+    }
+    /* ========== End About Us ========== */
+
+
+
+
+    /* ============ Services ============ */
+    .services-wrapper {
+        margin-bottom: 0 !important;
+    }
+    .services-margin1 {
+        margin-bottom: 0 !important;
+        background-color: transparent !important;
+    }
+    .services-margin2 {
+        padding-left: -20px;
+    }
+    .services-margin1 .col-md-3,
+    .services-margin1 .col-md-3:active
+    {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #d8d8d8 !important;
+        box-shadow: 5px 0 20px 5px #000000 !important;
+    }
+    .services-margin1 .col-md-3:hover {
+        background-color: #2a2c2b !important;
+        box-shadow: 5px 0 30px 10px #000000 !important;
+    }
+    .services-list {
+        margin-left: -5% !important;
+        margin-top: 10%; !important;
+        text-align: center !important;
+    }
+    .services-bw {
+        padding-bottom: 5%;
+    }
+    .services-ExIn {
+        padding-bottom: 5%;
+    }
+    .services-FullD {
+        padding-bottom: 5%;
+    }
+    .services-other {
+        padding-bottom: 5%;
+    }
+    .services-li-icon {
+        display: none !important;
+    }
+    .services h3 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+    .services h3 span {
+        font-size: 70px;
+        line-height: 91px;
+    }
+    .services h2 {
+        font-size: 60px;
+        line-height: 78px;
+    }
+    /* ============ End Services ============ */
+
+
+
+
+    /* ========== section divider ========== */
+    .section-divider-text {
+        text-align: center;
+    }
+    .section-divider-text h5 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .section-divider-text h3 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    /* ========== End section divider ========== */
+
+
+
+
+    /* ========== Gallery ========== */
+    .exterior-title {
+        text-align: center;
+    }
+    .interior-title {
+        text-align: center;
+    }
+    .other-title {
+        text-align: center;
+    }
+    /* ========== End Gallery ========== */
+
+
+
+
+    /* ========== contact us ========== */
+    .location-map {
+        min-width: 200px;
+        min-height: 200px;
+    }
+    /* ========== end contact us ========== */
+
+
+
+
+    /* ========== stay in touch with us ========== */
+    .minor-contacts-details-header h2 {
+        font-size: 20px;
+    }
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== stay in touch with us ========== */
+
+
+
+
+    /* ========== footer ========== */
+    .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .scroll-top {
+        margin-top: 30px !important;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== footer ========== */
+}
+
+/* mobile medium to large (iphone 6/7 plus) - landscape - fixes to About us page offset issues */
+@media only screen
+and (width: 736px)
+and (height: 414px)
+and (orientation: landscape) {
+    .abt_info_offset_fix_mobile_etc {
+        margin-right: 1% !important;
+    }
+}
+
+/* large mobiles - landscape - fixes to About us page offset issues */
+@media only screen
+and (min-width: 737px)
+and (max-width: 767px)
+and (orientation: landscape) {
+    .abt_info_offset_fix_mobile_etc {
+        margin-right: 2% !important;
+    }
+}
+
+
+
+
+/* tablets small - landscape*/
+@media only screen
+and (min-width: 768px)
+and (max-width: 991px)
+and (orientation: landscape)
+{
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none;
+        text-decoration: none;
+        position: fixed !important;
+        top:0;
+        left: 87%;
+        padding: 0 5px;
+        z-index: 110 !important;
+        background-color: #129cf3;
+    }
+    #follow-as-scroll:hover {
+        display: none;
+        text-decoration: none;
+        background-color: #315f72;
+    }
+    #follow-as-scroll h4 {
+        line-height: 0;
+    }
+    #follow-as-scroll h4 i {
+        font-size: 20px;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+
+
+    /* ========== navbar ========== */
+    .navbar-default {
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-brand {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+    }
+    .navbar-brand img {
+        width: 100%;
+    }
+    .navbar-company-name a p{
+        font-size: 16px !important;
+        padding-top: 5px !important;
+    }
+    .nav-item {
+        font-size: 13px !important;
+        padding: 15px 8px !important;
+    }
+    /* ========== End navbar ========== */
+
+
+
+
+    /* ========== Header ========== */
+    .header-slider {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .header-slider-custom-container {
+        width: 100% !important;
+    }
+    .header-slider-bottom-text {
+        margin-top: -40px;
+        margin-bottom: 180px;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus {
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 5%;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 5%;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 40px;
+        text-shadow: #000000;
+        color: #ffffff;
+    }
+    .header-slider-content-other-services-para:hover {
+        color: #ffffff;
+        text-shadow: #000000;
+        font-weight: 900;
+    }
+    /* ========== End header ========== */
+
+
+
+
+    /* ========== About Us ========== */
+    .about-information {
+        margin-left: 10% !important;
+        text-align: center;
+    }
+    .favicon-information-list-icon {
+        display: none;
+    }
+    .favicon-information-list {
+        text-align: center;
+    }
+    .about-us-image1 {
+        display: none;
+    }
+    /* ========== End About Us ========== */
+
+
+
+
+    /* ============ Services ============ */
+    .services-wrapper {
+        margin-bottom: 0 !important;
+    }
+    .services-margin1 {
+        margin-bottom: 0 !important;
+        background-color: transparent !important;
+    }
+    .services-margin2 {
+        padding-left: -20px;
+    }
+    .services-margin1 .col-md-3,
+    .services-margin1 .col-md-3:active
+    {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #d8d8d8 !important;
+        box-shadow: 5px 0 20px 5px #000000 !important;
+    }
+    .services-margin1 .col-md-3:hover {
+        background-color: #2a2c2b !important;
+        box-shadow: 5px 0 30px 10px #000000 !important;
+    }
+    .services-list {
+        margin-left: -5% !important;
+        margin-top: 10%; !important;
+        text-align: center !important;
+    }
+    .services-bw {
+        padding-bottom: 5%;
+    }
+    .services-ExIn {
+        padding-bottom: 5%;
+    }
+    .services-FullD {
+        padding-bottom: 5%;
+    }
+    .services-other {
+        padding-bottom: 5%;
+    }
+    .services-li-icon {
+        display: none !important;
+    }
+    .services h3 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+    .services h3 span {
+        font-size: 70px;
+        line-height: 91px;
+    }
+    .services h2 {
+        font-size: 60px;
+        line-height: 78px;
+    }
+    /* ============ End Services ============ */
+
+
+
+
+    /* ========== stay in touch with us ========== */
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== End stay in touch with us ========== */
+
+
+
+
+    /* ========== footer ========== */
+    .copyright p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== End footer ========== */
+}
+
+/* tablets medium and (laptops small - medium) - portrait*/
+@media only screen
+and (min-width: 768px)
+and (max-width: 991px)
+and (orientation: portrait)
+{
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none;
+        text-decoration: none;
+        position: fixed !important;
+        top:0;
+        left: 87%;
+        padding: 0 5px;
+        z-index: 110 !important;
+        background-color: #129cf3;
+    }
+    #follow-as-scroll:hover {
+        display: none;
+        text-decoration: none;
+        background-color: #315f72;
+    }
+    #follow-as-scroll h4 {
+        line-height: 0;
+    }
+    #follow-as-scroll h4 i {
+        font-size: 20px;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+
+
+    /* ========== navbar ========== */
+    .navbar-default {
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-brand {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0 !important;
+        padding: 3% 0 60px 0 !important;
+    }
+    .navbar-brand img {
+        width: 95% !important;
+    }
+    .navbar-company-name a p{
+        font-size: 16px !important;
+        padding-top: 5px !important;
+    }
+    .nav-item {
+        font-size: 12px !important;
+        padding: 18px 8px !important;
+    }
+    /* ========== End navbar ========== */
+
+
+
+
+    /* ========== Header ========== */
+    .header-slider {
+        margin-top: 3.5% !important;
+        margin-bottom: 0 !important;
+    }
+    .header-slider-bottom-text {
+        margin-top: 10% !important;
+        margin-bottom: 90% !important;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus {
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 5%;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 5%;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 40px;
+        text-shadow: #000000;
+        color: #ffffff;
+    }
+    .header-slider-content-other-services-para:hover {
+        color: #ffffff;
+        text-shadow: #000000;
+        font-weight: 900;
+    }
+    /* ========== End header ========== */
+
+
+
+
+    /* ========== About Us ========== */
+    .about-information {
+        margin-left: 10% !important;
+        text-align: center;
+    }
+    .favicon-information-list-icon {
+        display: none;
+    }
+    .favicon-information-list {
+        text-align: center;
+    }
+    .about-us-image1 {
+        display: none;
+    }
+    /* ========== End About Us ========== */
+
+
+
+
+    /* ============ Services ============ */
+    .services-wrapper {
+        margin-bottom: 0 !important;
+    }
+    .services-margin1 {
+        margin-bottom: 0 !important;
+        background-color: transparent !important;
+    }
+    .services-margin2 {
+        padding-left: -20px;
+    }
+    .services-margin1 .col-md-3,
+    .services-margin1 .col-md-3:active
+    {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #d8d8d8 !important;
+        box-shadow: 5px 0 20px 5px #000000 !important;
+    }
+    .services-margin1 .col-md-3:hover {
+        background-color: #2a2c2b !important;
+        box-shadow: 5px 0 30px 10px #000000 !important;
+    }
+    .services-list {
+        margin-left: -5% !important;
+        margin-top: 10%; !important;
+        text-align: center !important;
+    }
+    .services-bw {
+        padding-bottom: 5%;
+    }
+    .services-ExIn {
+        padding-bottom: 5%;
+    }
+    .services-FullD {
+        padding-bottom: 5%;
+    }
+    .services-other {
+        padding-bottom: 5%;
+    }
+    .services-li-icon {
+        display: none !important;
+    }
+    .services h3 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+    .services h3 span {
+        font-size: 70px;
+        line-height: 91px;
+    }
+    .services h2 {
+        font-size: 60px;
+        line-height: 78px;
+    }
+    /* ============ End Services ============ */
+
+
+
+
+    /* ============ Section divider ============ */
+    .section-divider-text {
+        text-align: center !important;
+    }
+    /* ============ End Section divider ============ */
+
+
+
+
+    /* ========== stay in touch with us ========== */
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== End stay in touch with us ========== */
+
+
+
+
+    /* ========== footer ========== */
+    .copyright p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== End footer ========== */
+}
+
+/* tablets large and laptops small - landscape*/
+@media only screen
+and (min-width: 992px)
+and (max-width: 1199px)
+and (orientation: landscape) {
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none;
+        text-decoration: none;
+        position: fixed !important;
+        top:0;
+        left: 87%;
+        padding: 0 5px;
+        z-index: 110 !important;
+        background-color: #129cf3;
+    }
+    #follow-as-scroll:hover {
+        display: none;
+        text-decoration: none;
+        background-color: #315f72;
+    }
+    #follow-as-scroll h4 {
+        line-height: 0;
+    }
+    #follow-as-scroll h4 i {
+        font-size: 20px;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+
+
+    /* ========== navbar ========== */
+    .navbar-default {
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-brand {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0 !important;
+        padding: 5px 0 0 0 !important;
+    }
+    .navbar-brand img {
+        width: 80%;
+    }
+    .navbar-company-name a p{
+        font-size: 20px !important;
+        padding-top: 10px !important;
+    }
+    .nav-item {
+        font-size: 13px !important;
+        padding: 20px 8px !important;
+    }
+    /* ========== End navbar ========== */
+
+
+
+
+    /* ========== Header ========== */
+    .header-slider {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .header-slider-custom-container {
+        width: 100% !important;
+    }
+    .header-slider-bottom-text {
+        margin-top: -35px;
+        margin-bottom: 180px;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus {
+        color: #ffffff;
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 5%;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 5%;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 40px;
+        text-shadow: #000000;
+        color: #ffffff;
+    }
+    .header-slider-content-other-services-para:hover {
+        color: #ffffff;
+        text-shadow: #000000;
+        font-weight: 900;
+    }
+    /* ========== End header ========== */
+
+
+
+
+    /* ============ Services ============ */
+    .services-list {
+        margin-left: -5% !important;
+        margin-top: 10%; !important;
+    }
+    .services-bw {
+        padding-bottom: 22.05%;
+    }
+    .services-ExIn {
+        padding-bottom: 7.2%;
+    }
+    .services-FullD {
+        padding-bottom: 5.288%;
+    }
+    .services-other {
+        padding-bottom: 38.9%;
+    }
+    /* ============ End Services ============ */
+
+
+
+
+    /* ========== stay in touch with us ========== */
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== End stay in touch with us ========== */
+
+
+
+
+    /* ========== footer ========== */
+    .copyright p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== End footer ========== */
+}
+
+/* tablets large and laptops large and all desktops - portrait*/
+@media only screen
+and (min-width: 992px)
+and (orientation: portrait)
+{
+
+    /* ============ Show Menu section ============ */
+    #follow-as-scroll,
+    #follow-as-scroll:active,
+    #follow-as-scroll:focus,
+    #follow-as-scroll:visited{
+        display: none;
+        text-decoration: none;
+        position: fixed !important;
+        top:0;
+        left: 87%;
+        padding: 0 5px;
+        z-index: 110 !important;
+        background-color: #129cf3;
+    }
+    #follow-as-scroll:hover {
+        display: none;
+        text-decoration: none;
+        background-color: #315f72;
+    }
+    #follow-as-scroll h4 {
+        line-height: 0;
+    }
+    #follow-as-scroll h4 i {
+        font-size: 20px;
+    }
+    /* ============ End Show Menu section ============ */
+
+
+
+
+    /* ========== navbar ========== */
+    .navbar-default {
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-brand {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0 !important;
+        padding: 2% 0 60px 0 !important;
+    }
+    .navbar-brand img {
+        width: 90% !important;
+    }
+    .navbar-company-name a p{
+        font-size: 23px !important;
+        padding-top: 10px !important;
+    }
+    .nav-item {
+        font-size: 14px !important;
+        padding: 18px 8px !important;
+    }
+    /* ========== End navbar ========== */
+
+
+
+
+    /* ========== Header ========== */
+    .header-slider {
+        margin-top: 3% !important;
+        margin-bottom: 0 !important;
+    }
+    .header-slider-bottom-text {
+        margin-top: 10% !important;
+        margin-bottom: 90% !important;
+    }
+    .header-slider-bottom-text h1 a,
+    .header-slider-bottom-text h1 a:active,
+    .header-slider-bottom-text h1 a:visited,
+    .header-slider-bottom-text h1 a:focus {
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 700;
+    }
+    .header-slider-bottom-text h1 a:hover {
+        color: #129cf3;
+    }
+    .header-slider-content h2{
+        float: left;
+        text-align: left;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 5%;
+    }
+    .header-slider-content h1{
+        float: left;
+        text-align: left;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 5%;
+    }
+    .header-slider-content-other-services-para,
+    .header-slider-content-other-services-para:active,
+    .header-slider-content-other-services-para:focus,
+    .header-slider-content-other-services-para:visited {
+        font-size: 40px;
+        text-shadow: #000000;
+        color: #ffffff;
+    }
+    .header-slider-content-other-services-para:hover {
+        color: #ffffff;
+        text-shadow: #000000;
+        font-weight: 900;
+    }
+    /* ========== End header ========== */
+
+
+
+
+    /* ============ Services ============ */
+    .services-bw {
+        padding-bottom: 24%;
+    }
+    .services-ExIn {
+        padding-bottom: 11.8%;
+    }
+    .services-FullD {
+        padding-bottom: 4.5%;
+    }
+    .services-other {
+        padding-bottom: 43.5%;
+    }
+    /* ============ End Services ============ */
+
+
+
+
+    /* ============ Section divider ============ */
+    .section-divider-text {
+        text-align: center !important;
+    }
+    /* ============ End Section divider ============ */
+
+
+
+
+    /* ========== stay in touch with us ========== */
+    .minor-contacts-details-info-icon i {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .minor-contacts-details-info {
+        margin-bottom: 30px;
+    }
+    .minor-contacts-details-info h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .minor-contacts-details-info p {
+        font-size: 15px;
+        line-height: 23px;
+        font-weight: 400;
+    }
+    /* ========== End stay in touch with us ========== */
+
+
+
+
+    /* ========== footer ========== */
+    .copyright p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .scroll-top a {
+        padding: 20px !important;
+    }
+    /* ========== End footer ========== */
+}
+
+/* tablets large and large laptops and desktops - landscape*/
+@media only screen
+and (min-width: 1200px)
+and (orientation: landscape)
+{
+    .header-slider {
+        margin-top: 3.2% !important;
+    }
+    .header-slider-bottom-text {
+        margin-top: -2%;
+        margin-bottom: 180px;
+    }
+}
+
+/* laptops large and desktops large - portrait*/
+@media only screen
+and (min-width: 1200px)
+and (orientation: portrait)
+{
+    /* ============ Services ============ */
+    .services-bw {
+        padding-bottom: 16.8%;
+    }
+    .services-ExIn {
+        padding-bottom: 9%;
+    }
+    .services-FullD {
+        padding-bottom: 5.2%;
+    }
+    .services-other {
+        padding-bottom: 30.9%;
+    }
+    /* ============ End Services ============ */
+}
